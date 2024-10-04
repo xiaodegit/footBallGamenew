@@ -1,3 +1,3 @@
 # 排除所有 node_modules 文件夹
 client/node_modules
-cocosgame/node_modules
+game/node_modules
