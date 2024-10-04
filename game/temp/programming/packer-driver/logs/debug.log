@@ -317,3 +317,759 @@ Feature changed: false
 19:14:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
 19:14:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts.
 19:14:30 debug: Target(preview) ends with cost 643.1906000077724ms.
+19:34:14 debug: Dispatch build request for time accumulated 1 asset changes.
+19:34:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:34:14 debug: Target(editor) build started.
+19:34:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:11 GMT+0800 (中国标准时间)
+19:34:14 debug: Inspect cce:/internal/x/prerequisite-imports
+19:34:14 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:34:14 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:34:14 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:32:52 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:34:14 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:34:14 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:14 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:14 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:14 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js
+19:34:14 debug: Resolve ./url.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js
+19:34:14 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js
+19:34:14 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js
+19:34:14 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js
+19:34:14 debug: Resolve ./polling-xhr.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js
+19:34:14 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'
+19:34:14 debug: Resolve xmlhttprequest-ssl from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js
+19:34:14 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js
+19:34:14 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:14 debug: Inspect cce:/internal/ml/cjs-loader.mjs
+19:34:14 debug: Failed to resolve 'fs' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "fs"
+19:34:14 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'fs'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:14 debug: Failed to resolve 'url' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "url"
+19:34:14 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'url'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:14 debug: Failed to resolve 'child_process' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "child_process"
+19:34:14 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'child_process'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:14 debug: Failed to resolve 'http' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "http"
+19:34:14 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'http'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:14 debug: Failed to resolve 'https' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "https"
+19:34:14 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'https'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:14 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:14 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:14 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:14 debug: Resolve ./polling-xhr.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js
+19:34:14 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js
+19:34:14 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js
+19:34:14 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js
+19:34:14 debug: Resolve ./encodePacket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js
+19:34:14 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js
+19:34:14 debug: Resolve ./decodePacket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js
+19:34:14 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:14 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:14 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:14 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js
+19:34:14 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js
+19:34:14 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:14 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:14 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:14 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:14 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js
+19:34:14 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js
+19:34:14 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js
+19:34:14 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:14 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:14 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:14 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:14 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:14 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:14 debug: Resolve ../contrib/has-cors.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/has-cors.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/has-cors.js
+19:34:14 debug: Resolve ./websocket.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js
+19:34:14 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js'
+19:34:14 debug: Resolve ws from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js.
+19:34:14 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js
+19:34:15 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js
+19:34:15 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:15 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:15 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:15 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:15 debug: Resolve ./websocket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js
+19:34:15 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:15 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:15 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:15 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:15 debug: Resolve ./webtransport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js
+19:34:15 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:15 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:15 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:15 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:15 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:34:15 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js
+19:34:15 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:15 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:15 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:15 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:15 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js.
+19:34:15 debug: Resolve ./transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:15 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js.
+19:34:15 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:15 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:34:15 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:15 debug: Resolve ./transports/polling-fetch.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js
+19:34:15 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:34:15 debug: Resolve ./transports/polling-xhr.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:34:15 debug: Resolve ./transports/polling-xhr.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:34:15 debug: Resolve ./transports/websocket.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:34:15 debug: Resolve ./transports/websocket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:34:15 debug: Resolve ./transports/webtransport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:34:15 debug: Resolve ./manager.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js
+19:34:15 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js.
+19:34:15 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js
+19:34:15 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js
+19:34:15 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:15 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:15 debug: Resolve ./binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js
+19:34:15 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js
+19:34:15 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:34:15 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js
+19:34:15 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:15 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:15 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:15 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js.
+19:34:15 debug: Resolve ./contrib/backo2.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/contrib/backo2.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/contrib/backo2.js
+19:34:15 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:15 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:15 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js.
+19:34:15 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts.
+19:34:15 debug: Target(editor) ends with cost 1553.5808999836445ms.
+19:34:15 debug: Target(preview) build started.
+19:34:15 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (中国标准时间)
+19:34:15 debug: Inspect cce:/internal/x/prerequisite-imports
+19:34:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:34:15 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:34:15 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:32:52 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:34:15 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:34:15 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:15 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:15 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:34:15 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js
+19:34:15 debug: Resolve ./url.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js
+19:34:15 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/url.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js
+19:34:15 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js
+19:34:15 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js
+19:34:15 debug: Resolve ./polling-xhr.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:34:15 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js
+19:34:16 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'
+19:34:16 debug: Resolve xmlhttprequest-ssl from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js
+19:34:16 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Inspect cce:/internal/ml/cjs-loader.mjs
+19:34:16 debug: Failed to resolve 'fs' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "fs"
+19:34:16 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'fs'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:16 debug: Failed to resolve 'url' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "url"
+19:34:16 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'url'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:16 debug: Failed to resolve 'child_process' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "child_process"
+19:34:16 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'child_process'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:16 debug: Failed to resolve 'http' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "http"
+19:34:16 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'http'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:16 debug: Failed to resolve 'https' from 'file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "https"
+19:34:16 debug: Inspect data:text/javascript,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20export%20const%20__cjsMetaURL%20%3D%20'https'%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:16 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:34:16 debug: Resolve ./polling-xhr.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js
+19:34:16 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js
+19:34:16 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js
+19:34:16 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js
+19:34:16 debug: Resolve ./encodePacket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js
+19:34:16 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/encodePacket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js
+19:34:16 debug: Resolve ./decodePacket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js
+19:34:16 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/decodePacket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:16 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/commons.js.
+19:34:16 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:16 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js
+19:34:16 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:16 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:34:16 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js
+19:34:16 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js
+19:34:16 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js
+19:34:16 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:16 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:16 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:16 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Resolve ../contrib/has-cors.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/has-cors.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/has-cors.js
+19:34:16 debug: Resolve ./websocket.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js
+19:34:16 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js'
+19:34:16 debug: Resolve ws from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js
+19:34:16 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:34:16 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:16 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/node_modules/ws/browser.js.
+19:34:16 debug: Resolve ./websocket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js
+19:34:16 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:16 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:16 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Resolve ./webtransport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js
+19:34:16 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:16 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:16 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:34:16 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js
+19:34:16 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:16 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:16 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-parser/build/esm/index.js.
+19:34:16 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/socket.js.
+19:34:16 debug: Resolve ./transport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transport.js.
+19:34:16 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/index.js.
+19:34:16 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/util.js.
+19:34:16 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:34:16 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/globals.node.js.
+19:34:16 debug: Resolve ./transports/polling-fetch.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js
+19:34:16 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-fetch.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:34:16 debug: Resolve ./transports/polling-xhr.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:34:16 debug: Resolve ./transports/polling-xhr.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:34:16 debug: Resolve ./transports/websocket.node.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:34:16 debug: Resolve ./transports/websocket.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:34:16 debug: Resolve ./transports/webtransport.js from file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:34:16 debug: Resolve ./manager.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js
+19:34:16 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/engine.io-client/build/esm/index.js.
+19:34:16 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js.
+19:34:16 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js
+19:34:17 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:17 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js
+19:34:17 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:17 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:17 debug: Resolve ./binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js.
+19:34:17 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js
+19:34:17 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/binary.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:34:17 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js
+19:34:17 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:34:17 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js.
+19:34:17 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js
+19:34:17 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:17 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:17 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:17 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/on.js.
+19:34:17 debug: Resolve ./contrib/backo2.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/contrib/backo2.js.
+19:34:17 debug: Inspect file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/contrib/backo2.js
+19:34:17 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:34:17 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:34:17 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/socket.js.
+19:34:17 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/node_modules/socket.io-parser/build/esm/index.js.
+19:34:17 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:34:17 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts.
+19:34:17 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:34:17 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts.
+19:34:17 debug: Target(preview) ends with cost 1645.3357999920845ms.
+19:37:28 debug: Dispatch build request for time accumulated 1 asset changes.
+19:37:28 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:37:28 debug: Target(editor) build started.
+19:37:28 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间)
+19:37:28 debug: Inspect cce:/internal/x/prerequisite-imports
+19:37:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:37:29 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:32:52 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:37:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:37:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:37:29 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts.
+19:37:29 debug: Target(editor) ends with cost 163.49499997496605ms.
+19:37:29 debug: Target(preview) build started.
+19:37:29 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间)
+19:37:29 debug: Inspect cce:/internal/x/prerequisite-imports
+19:37:29 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:37:29 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:32:52 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:37:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:37:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:37:29 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:37:29 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/node_modules/socket.io-client/build/esm/index.js.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/ObstacleManager.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:37:29 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/RoadManager.ts.
+19:37:29 debug: Target(preview) ends with cost 149.36169999837875ms.
+19:46:36 debug: Dispatch build request for time accumulated 4 asset changes.
+19:46:36 debug: Build iteration starts.
+Number of accumulated asset changes: 4
+Feature changed: false
+19:46:36 debug: Target(editor) build started.
+19:46:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:33 GMT+0800 (中国标准时间)
+19:46:36 debug: Inspect cce:/internal/x/prerequisite-imports
+19:46:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:46:36 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@cf253f2e-4478-43b3-b2e2-7ade07afc75a, Current mtime: Fri Oct 04 2024 19:46:17 GMT+0800 (中国标准时间)@cf253f2e-4478-43b3-b2e2-7ade07afc75a
+19:46:36 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts
+19:46:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:46:36 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/game.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@c42f631d-a1b0-417c-875d-113ade82688b, Current mtime: Fri Oct 04 2024 19:45:18 GMT+0800 (中国标准时间)@c42f631d-a1b0-417c-875d-113ade82688b
+19:46:36 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/game.ts
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:46:36 debug: Target(editor) ends with cost 118.7035000026226ms.
+19:46:36 debug: Target(preview) build started.
+19:46:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:34 GMT+0800 (中国标准时间)
+19:46:36 debug: Inspect cce:/internal/x/prerequisite-imports
+19:46:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:46:36 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@cf253f2e-4478-43b3-b2e2-7ade07afc75a, Current mtime: Fri Oct 04 2024 19:46:17 GMT+0800 (中国标准时间)@cf253f2e-4478-43b3-b2e2-7ade07afc75a
+19:46:36 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts
+19:46:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:46:36 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/game.ts. Last mtime: Fri Oct 04 2024 19:03:32 GMT+0800 (中国标准时间)@c42f631d-a1b0-417c-875d-113ade82688b, Current mtime: Fri Oct 04 2024 19:45:18 GMT+0800 (中国标准时间)@c42f631d-a1b0-417c-875d-113ade82688b
+19:46:36 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/game.ts
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+19:46:36 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:46:37 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:46:37 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:46:37 debug: Target(preview) ends with cost 124.85730001330376ms.
+19:56:28 debug: Dispatch build request for time accumulated 1 asset changes.
+19:56:28 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:56:28 debug: Target(editor) build started.
+19:56:28 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:26 GMT+0800 (中国标准时间)
+19:56:28 debug: Inspect cce:/internal/x/prerequisite-imports
+19:56:28 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:56:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:56:28 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:37:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:56:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:56:28 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:56:28 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:56:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:28 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js.
+19:56:28 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js
+19:56:28 debug: Resolve ./url.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js.
+19:56:28 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js
+19:56:28 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js.
+19:56:28 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js
+19:56:29 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js
+19:56:29 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js
+19:56:29 debug: Resolve ./polling-xhr.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js
+19:56:29 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'
+19:56:29 debug: Resolve xmlhttprequest-ssl from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js
+19:56:29 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Failed to resolve 'fs' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "fs"
+19:56:29 debug: Failed to resolve 'url' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "url"
+19:56:29 debug: Failed to resolve 'child_process' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "child_process"
+19:56:29 debug: Failed to resolve 'http' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "http"
+19:56:29 debug: Failed to resolve 'https' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "https"
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:29 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:29 debug: Resolve ./polling-xhr.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js
+19:56:29 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js
+19:56:29 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js
+19:56:29 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js
+19:56:29 debug: Resolve ./encodePacket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js
+19:56:29 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js
+19:56:29 debug: Resolve ./decodePacket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js
+19:56:29 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:29 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:29 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:29 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js
+19:56:29 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:29 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:29 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js
+19:56:29 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js
+19:56:29 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js
+19:56:29 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:29 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:29 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:29 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Resolve ../contrib/has-cors.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/has-cors.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/has-cors.js
+19:56:29 debug: Resolve ./websocket.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js
+19:56:29 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js'
+19:56:29 debug: Resolve ws from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js
+19:56:29 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:29 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:29 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:29 debug: Resolve ./websocket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js
+19:56:29 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:29 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:29 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Resolve ./webtransport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js
+19:56:29 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:29 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:29 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:56:29 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js
+19:56:29 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:29 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:29 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:29 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js.
+19:56:29 debug: Resolve ./transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:29 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js.
+19:56:29 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:29 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:56:29 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:29 debug: Resolve ./transports/polling-fetch.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js
+19:56:29 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:56:29 debug: Resolve ./transports/polling-xhr.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:56:29 debug: Resolve ./transports/polling-xhr.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:56:29 debug: Resolve ./transports/websocket.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:56:29 debug: Resolve ./transports/websocket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:56:29 debug: Resolve ./transports/webtransport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:56:29 debug: Resolve ./manager.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js.
+19:56:29 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js
+19:56:30 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js.
+19:56:30 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js
+19:56:30 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js
+19:56:30 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:30 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:30 debug: Resolve ./binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js
+19:56:30 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js
+19:56:30 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:56:30 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js
+19:56:30 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:30 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:30 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:30 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js.
+19:56:30 debug: Resolve ./contrib/backo2.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/contrib/backo2.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/contrib/backo2.js
+19:56:30 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:30 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:30 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js.
+19:56:30 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:56:30 debug: Target(editor) ends with cost 1466.3108000159264ms.
+19:56:30 debug: Target(preview) build started.
+19:56:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:42:27 GMT+0800 (中国标准时间)
+19:56:30 debug: Inspect cce:/internal/x/prerequisite-imports
+19:56:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+19:56:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+19:56:30 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Fri Oct 04 2024 19:37:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Fri Oct 04 2024 19:56:28 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+19:56:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+19:56:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+19:56:30 debug: Resolve socket.io-client from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js
+19:56:30 debug: Resolve ./url.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js
+19:56:30 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js
+19:56:30 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js
+19:56:30 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js
+19:56:30 debug: Resolve ./polling-xhr.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js
+19:56:30 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'
+19:56:30 debug: Resolve xmlhttprequest-ssl from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js
+19:56:30 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js
+19:56:30 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:30 debug: Failed to resolve 'fs' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "fs"
+19:56:30 debug: Failed to resolve 'url' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "url"
+19:56:30 debug: Failed to resolve 'child_process' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "child_process"
+19:56:30 debug: Failed to resolve 'http' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "http"
+19:56:30 debug: Failed to resolve 'https' from 'file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js'(module type: commonjs). Reason: Error: 以 file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js 为起点找不到模块 "https"
+19:56:30 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:30 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:30 debug: Resolve ./XMLHttpRequest.js from file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js.
+19:56:30 debug: Resolve ./polling-xhr.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:56:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js
+19:56:31 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js
+19:56:31 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js
+19:56:31 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js
+19:56:31 debug: Resolve ./encodePacket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js
+19:56:31 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js
+19:56:31 debug: Resolve ./decodePacket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js
+19:56:31 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:31 debug: Resolve ./commons.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js.
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:31 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js
+19:56:31 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js
+19:56:31 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:31 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:31 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:31 debug: Resolve ./index.js from file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js.
+19:56:31 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js
+19:56:31 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js
+19:56:31 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js
+19:56:31 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:31 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:31 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Resolve ../contrib/has-cors.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/has-cors.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/has-cors.js
+19:56:31 debug: Resolve ./websocket.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js'
+19:56:31 debug: Resolve ws from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js
+19:56:31 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js
+19:56:31 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:31 debug: Resolve cce:/internal/ml/cjs-loader.mjs from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as cce:/internal/ml/cjs-loader.mjs.
+19:56:31 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:31 debug: Resolve ./browser.js from file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js as file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js.
+19:56:31 debug: Resolve ./websocket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js
+19:56:31 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:31 debug: Resolve ../util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:31 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Resolve ./webtransport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js
+19:56:31 debug: Resolve ../transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:31 debug: Resolve ../globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:31 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Resolve ./contrib/parseqs.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js.
+19:56:31 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:31 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:31 debug: Resolve engine.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js.
+19:56:31 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js.
+19:56:31 debug: Resolve ./transport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js.
+19:56:31 debug: Resolve ./transports/index.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js.
+19:56:31 debug: Resolve ./util.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js.
+19:56:31 debug: Resolve ./contrib/parseuri.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js.
+19:56:31 debug: Resolve ./globals.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js.
+19:56:31 debug: Resolve ./transports/polling-fetch.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js
+19:56:31 debug: Resolve ./polling.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js.
+19:56:31 debug: Resolve ./transports/polling-xhr.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js.
+19:56:31 debug: Resolve ./transports/polling-xhr.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js.
+19:56:31 debug: Resolve ./transports/websocket.node.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js.
+19:56:31 debug: Resolve ./transports/websocket.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js.
+19:56:31 debug: Resolve ./transports/webtransport.js from file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js.
+19:56:31 debug: Resolve ./manager.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js
+19:56:31 debug: Resolve engine.io-client from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js.
+19:56:31 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js
+19:56:31 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:31 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:31 debug: Resolve ./binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js
+19:56:31 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js
+19:56:31 debug: Resolve ./is-binary.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js.
+19:56:31 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js
+19:56:31 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:31 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:31 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:31 debug: Resolve ./on.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js.
+19:56:31 debug: Resolve ./contrib/backo2.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/contrib/backo2.js.
+19:56:31 debug: Inspect file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/contrib/backo2.js
+19:56:32 debug: Create cjs interop url for 'file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js'
+19:56:32 debug: Resolve @socket.io/component-emitter from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js as file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js.
+19:56:32 debug: Resolve ./socket.js from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js.
+19:56:32 debug: Resolve socket.io-parser from file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js as file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js.
+19:56:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+19:56:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+19:56:32 debug: Target(preview) ends with cost 1706.2486999928951ms.
