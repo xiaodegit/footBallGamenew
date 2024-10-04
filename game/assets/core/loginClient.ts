@@ -1,6 +1,7 @@
-import { _decorator, Button, Component, EditBox, Label, log, Node } from 'cc';
-import { io, Socket } from 'socket.io-client';
+import { _decorator, Button, Component, EditBox } from 'cc';
 const { ccclass, property } = _decorator;
+
+import { io, Socket } from 'socket.io-client';
 
 @ccclass('socketClient')
 export class socketClient extends Component {
@@ -13,7 +14,7 @@ export class socketClient extends Component {
 
     @property(Button)
     loginButton: Button | null = null;
-    private socket!: Socket;
+    private socket:Socket;
     start() {
         this.socket = io('http://localhost:3000');
         this.socket.emit('joinGame', { playerName: 'Player1' });

@@ -5,7 +5,7 @@ import { PlayerController } from "../controllers/PlayerController";
 export class PlayerManager {
     private static instance: PlayerManager;
     private jumpBoolean: Boolean;
-    private Floor: Node;
+    private Floor: Node = null;
     private over: Node;
 
     private force: number;

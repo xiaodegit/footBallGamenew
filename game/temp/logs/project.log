@@ -1,0 +1,58 @@
+2024-10-4 19:14:01 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+2024-10-4 19:14:02 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,websocket-server,webview)
+2024-10-4 19:14:02 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2024-10-4 19:14:03 - log: Request namespace: device-list
+2024-10-4 19:14:29 - log: [Scene] meshopt wasm decoder initialized
+2024-10-4 19:14:29 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2024-10-4 19:14:29 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2024-10-4 19:14:29 - log: [Scene] [PHYSICS]: using builtin.
+2024-10-4 19:14:30 - log: [Scene] Cocos Creator v3.8.3
+2024-10-4 19:14:30 - info: [Scene] Forward render pipeline initialized.
+2024-10-4 19:14:30 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts 为起点找不到模块 "socket.io-client"
+    at rejector (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:777:13)
+    at ExecutorSystem._resolve (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\editor-systemjs\index.ts:137:14)
+    at SystemJS.resolve (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\editor-systemjs\index.ts:36:23)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:355:37
+    at Array.map (<anonymous>)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:353:41
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts 为起点找不到模块 "socket.io-client"
+    at SystemJS.resolve (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\editor-systemjs\index.ts:36:23)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:355:37
+    at Array.map (<anonymous>)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:353:41
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:431:7
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+2024-10-4 19:14:30 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-10-4 19:22:13 - warn: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvjuError: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvju
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-4 19:22:13 - error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+Error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)

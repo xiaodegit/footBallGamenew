@@ -1,0 +1,166 @@
+{
+  "3826bd9c-5f66-4970-a480-e1e163ba7941": {
+    "url": "db://assets/controllers",
+    "value": {},
+    "versionCode": 1
+  },
+  "5892ead2-a8d2-4ffa-a4b6-e3be5867d635": {
+    "url": "db://assets/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "56b87245-b071-46ae-8a50-66d3e82154e0": {
+    "url": "db://assets/handlers",
+    "value": {},
+    "versionCode": 1
+  },
+  "2df7f738-10b7-4655-91e6-8cdaff7eb10f": {
+    "url": "db://assets/managers",
+    "value": {},
+    "versionCode": 1
+  },
+  "8258e1b0-ec85-4395-85e5-59b73277af66": {
+    "url": "db://assets/src",
+    "value": {},
+    "versionCode": 1
+  },
+  "dab76853-8644-4614-b012-9e416b2ca80a": {
+    "url": "db://assets/controllers/jointControls",
+    "value": {},
+    "versionCode": 1
+  },
+  "f9f34cd4-a077-4fb3-a89f-2d7754d4241e": {
+    "url": "db://assets/controllers/stickControls",
+    "value": {},
+    "versionCode": 1
+  },
+  "1d99654c-3fb1-49a5-8682-78af73d5fd90": {
+    "url": "db://assets/src/prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "7922c581-6178-4d76-b915-826f1d5d8618": {
+    "url": "db://assets/src/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "bc802034-eb8c-4de2-9ee3-3cc243f637a3": {
+    "url": "db://assets/controllers/stickControls/onTouchController",
+    "value": {},
+    "versionCode": 1
+  },
+  "264245bd-e409-4e31-980e-4e9a329f804f": {
+    "url": "db://assets/controllers/PlayerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4ad3bf4f-a365-4696-ba8d-855350b98bff": {
+    "url": "db://assets/controllers/RockerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c42f631d-a1b0-417c-875d-113ade82688b": {
+    "url": "db://assets/core/game.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "243d1323-124c-4bc1-b12f-0eca95b6f8ee": {
+    "url": "db://assets/core/loginClient.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "019cef47-df36-4810-87ac-904fdf1ec930": {
+    "url": "db://assets/handlers/playerCollition.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bd8d571d-2eef-4452-9c6f-6f1b8b76448a": {
+    "url": "db://assets/managers/ObstacleManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cf253f2e-4478-43b3-b2e2-7ade07afc75a": {
+    "url": "db://assets/managers/PlayerManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5ca7c3e6-29c6-44b6-a1ae-55c5e45ac79b": {
+    "url": "db://assets/managers/RoadManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943": {
+    "url": "db://assets/controllers/jointControls/FootMotorController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "96edff91-7681-49a4-9c8c-3793aa5ea3a8": {
+    "url": "db://assets/controllers/stickControls/StickController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f": {
+    "url": "db://assets/controllers/stickControls/onTouchController/onTouchJump.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4ed92c0b-1bfa-41af-a269-696106c2bfb6": {
+    "url": "db://assets/controllers/stickControls/onTouchController/onTouchStick.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b3e09e3a-4bf3-4c7b-bb55-281bcafc7be0": {
+    "url": "db://assets/src/prefabs/player.prefab",
+    "value": {
+      "depends": [
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": [
+        "264245bd-e409-4e31-980e-4e9a329f804f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f48832cd-a367-48b8-8103-5ea374cc6b28": {
+    "url": "db://assets/src/scenes/game.scene",
+    "value": {
+      "depends": [
+        "f48832cd-a367-48b8-8103-5ea374cc6b28",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "b3e09e3a-4bf3-4c7b-bb55-281bcafc7be0",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "9ad32573-2379-45d4-88b3-246e0e52b450"
+      ],
+      "dependScripts": [
+        "019cef47-df36-4810-87ac-904fdf1ec930",
+        "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f",
+        "4ed92c0b-1bfa-41af-a269-696106c2bfb6",
+        "c42f631d-a1b0-417c-875d-113ade82688b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0d42534b-3fa7-45c7-874a-b5fba28f3dfe": {
+    "url": "db://assets/src/scenes/login.scene",
+    "value": {
+      "depends": [
+        "0d42534b-3fa7-45c7-874a-b5fba28f3dfe",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": [
+        "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+      ]
+    },
+    "versionCode": 1
+  }
+}
