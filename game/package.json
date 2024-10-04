@@ -1,0 +1,14 @@
+{
+  "name": "FootBallClientGame",
+  "uuid": "0343dc85-24af-4ef0-9902-269af5798795",
+  "creator": {
+    "version": "3.8.3"
+  },
+  "dependencies": {
+    "@types/socket.io-client": "^1.4.36",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}
