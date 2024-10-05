@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2547469.6173000038,
+      "mTimestamp": 5958972.215900004,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1389,15 +1389,11 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts": {
       "mTimestamp": {
-        "mtime": 1728042988605.6206,
+        "mtime": 1728046379108.2292,
         "uuid": "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
       },
       "chunkId": "de974a62fece4597050d7a1ad02a8b505f838ad9",
       "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
         {
           "value": "cc"
         },
@@ -1416,19 +1412,6 @@
               "column": 59
             }
           }
-        },
-        {
-          "value": "socket.io-client",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 15
-            },
-            "end": {
-              "line": 4,
-              "column": 33
-            }
-          }
         }
       ],
       "type": "esm",
@@ -1436,13 +1419,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "cce:/internal/x/cc"
           },
           "messages": []
@@ -1458,13 +1434,6 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js"
           },
           "messages": []
         }
@@ -3784,7 +3753,7 @@
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/index.js": {
-      "mTimestamp": 1728042669840.082,
+      "mTimestamp": 1728044037328.261,
       "chunkId": "4ee38fad6234598dbd2d5e74483857c5ecb3d038",
       "imports": [
         {
@@ -3876,7 +3845,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/url.js": {
-      "mTimestamp": 1728042669961.6016,
+      "mTimestamp": 1728044037524.271,
       "chunkId": "0c552d9494e65335ea84a691e001f062ae416d72",
       "imports": [
         {
@@ -3905,7 +3874,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/index.js": {
-      "mTimestamp": 1728042669912.0813,
+      "mTimestamp": 1728044037493.014,
       "chunkId": "abfd9d9ecbc557be2dd3fd7fb1a0d4df3306bde6",
       "imports": [
         {
@@ -4187,7 +4156,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/socket.js": {
-      "mTimestamp": 1728042670040.7507,
+      "mTimestamp": 1728044038055.8667,
       "chunkId": "d90fac5ce22f37c60959498e36240807402faaf3",
       "imports": [
         {
@@ -4341,7 +4310,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/index.js": {
-      "mTimestamp": 1728042669914.0823,
+      "mTimestamp": 1728044037496.015,
       "chunkId": "883133674f33f47ade19c2412206937cd33cbe85",
       "imports": [
         {
@@ -4413,7 +4382,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.node.js": {
-      "mTimestamp": 1728042669961.6016,
+      "mTimestamp": 1728044037527.1853,
       "chunkId": "0e94ddf118c3a35b54ddb9952ed2a6385090b016",
       "imports": [
         {
@@ -4463,7 +4432,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.mjs?cjs=&original=.js": {
-      "mTimestamp": 1728042669892.0806,
+      "mTimestamp": 1728044037478.0095,
       "chunkId": "4cd0f28491e96575ce2c2baf4d6d68768ff8bd39",
       "imports": [
         {
@@ -4556,7 +4525,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js": {
-      "mTimestamp": 1728042669892.0806,
+      "mTimestamp": 1728044037478.0095,
       "chunkId": "f09159b917545b42178fe2ad5fee1e16d7ce5bb6",
       "imports": [
         {
@@ -4686,7 +4655,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-xhr.js": {
-      "mTimestamp": 1728042669954.6003,
+      "mTimestamp": 1728044037522.271,
       "chunkId": "136fb246f9a185ebc0ca2886edf559966faec4b3",
       "imports": [
         {
@@ -4799,7 +4768,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling.js": {
-      "mTimestamp": 1728042669968.601,
+      "mTimestamp": 1728044037732.537,
       "chunkId": "3d2e5fe2d84345523fae06f7cb5f4431d85e0252",
       "imports": [
         {
@@ -4870,7 +4839,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js": {
-      "mTimestamp": 1728042670063.7505,
+      "mTimestamp": 1728044038061.8667,
       "chunkId": "81ba4b4b0c43c05f868e4acb22400d761835d608",
       "imports": [
         {
@@ -4961,7 +4930,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/index.js": {
-      "mTimestamp": 1728042669895.0833,
+      "mTimestamp": 1728044037478.0095,
       "chunkId": "ad58912ac824aa5568bad20567ab8f1db84489ab",
       "imports": [
         {
@@ -5033,7 +5002,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/encodePacket.js": {
-      "mTimestamp": 1728042669884.081,
+      "mTimestamp": 1728044037467.0088,
       "chunkId": "b1bf9114a95e653e48cbc0bfe01dbf98431167b4",
       "imports": [
         {
@@ -5063,14 +5032,14 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/commons.js": {
-      "mTimestamp": 1728042669811.568,
+      "mTimestamp": 1728044037306.261,
       "chunkId": "4140ae830b3fcd0c4c6c267bab77046bdea4d4ea",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-parser/build/esm/decodePacket.js": {
-      "mTimestamp": 1728042669826.5718,
+      "mTimestamp": 1728044037322.2603,
       "chunkId": "0f65c7f1d073966942c644c608a84340de6d42ed",
       "imports": [
         {
@@ -5100,7 +5069,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.mjs?cjs=&original=.js": {
-      "mTimestamp": 1728042669791.5667,
+      "mTimestamp": 1728044037291.7646,
       "chunkId": "8b96d8d35cc64758b7d5e36f3a77407b53dd687d",
       "imports": [
         {
@@ -5193,7 +5162,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/@socket.io/component-emitter/lib/cjs/index.js": {
-      "mTimestamp": 1728042669791.5667,
+      "mTimestamp": 1728044037291.7646,
       "chunkId": "1edf214a140854133b6c0d28e3aed2af0f120dfb",
       "imports": [
         {
@@ -5223,7 +5192,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/util.js": {
-      "mTimestamp": 1728042670069.75,
+      "mTimestamp": 1728044038066.8684,
       "chunkId": "ba5a03880e3996f161cc209548760aabb2c94203",
       "imports": [
         {
@@ -5253,28 +5222,28 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/globals.node.js": {
-      "mTimestamp": 1728042669892.0806,
+      "mTimestamp": 1728044037471.009,
       "chunkId": "88f26e6d73e4e0689f2b9b89494a7a6ee382d0bc",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseqs.js": {
-      "mTimestamp": 1728042669932.0889,
+      "mTimestamp": 1728044037501.0125,
       "chunkId": "10314ff9dc23a77fe13e8dff7c64b8462d6d73bb",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/has-cors.js": {
-      "mTimestamp": 1728042669900.081,
+      "mTimestamp": 1728044037481.0095,
       "chunkId": "d3f2074c0551ad761f070b3d0c7a538619ced10a",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.node.js": {
-      "mTimestamp": 1728042670087.7502,
+      "mTimestamp": 1728044038086.8716,
       "chunkId": "4f0f2522e392c0ca97af46eac267024fc7291982",
       "imports": [
         {
@@ -5324,7 +5293,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.mjs?cjs=&original=.js": {
-      "mTimestamp": 1728042669789.5664,
+      "mTimestamp": 1728044037285.76,
       "chunkId": "8edb5bbd884eb7b6d84dd9f05ad1791416e6d9a9",
       "imports": [
         {
@@ -5417,7 +5386,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/ws/browser.js": {
-      "mTimestamp": 1728042669789.5664,
+      "mTimestamp": 1728044037285.76,
       "chunkId": "f4b8586c4c22f895c1d6c10cb3028a238ee849dd",
       "imports": [
         {
@@ -5447,7 +5416,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/websocket.js": {
-      "mTimestamp": 1728042670078.7493,
+      "mTimestamp": 1728044038075.8672,
       "chunkId": "e94819a8d291a2e4378c0e901cfbb9b44f17b369",
       "imports": [
         {
@@ -5539,7 +5508,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/webtransport.js": {
-      "mTimestamp": 1728042670095.7505,
+      "mTimestamp": 1728044038094.871,
       "chunkId": "8a5b85b19306803856ecf8d9a921e393c32463d1",
       "imports": [
         {
@@ -5610,14 +5579,14 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/contrib/parseuri.js": {
-      "mTimestamp": 1728042669937.6006,
+      "mTimestamp": 1728044037505.2703,
       "chunkId": "7b5c88e67e7580737807b969aef930f5b74e82ad",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transports/polling-fetch.js": {
-      "mTimestamp": 1728042669946.6018,
+      "mTimestamp": 1728044037513.2703,
       "chunkId": "533ba5f554544abe135cec57977b69f407c1ca86",
       "imports": [
         {
@@ -5647,7 +5616,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/manager.js": {
-      "mTimestamp": 1728042669893.081,
+      "mTimestamp": 1728044037471.009,
       "chunkId": "14c91f932613d8628f8a38e5db8666cc56166933",
       "imports": [
         {
@@ -5779,7 +5748,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/socket.js": {
-      "mTimestamp": 1728042669953.6006,
+      "mTimestamp": 1728044037518.2695,
       "chunkId": "3590d91f6c430de99b671df53f284c7237300500",
       "imports": [
         {
@@ -5849,7 +5818,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/index.js": {
-      "mTimestamp": 1728042669821.5742,
+      "mTimestamp": 1728044037317.2605,
       "chunkId": "a44f34d8223daad8346dfa09d4c98d745c0f1044",
       "imports": [
         {
@@ -5920,7 +5889,7 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/binary.js": {
-      "mTimestamp": 1728042669805.5667,
+      "mTimestamp": 1728044037300.7642,
       "chunkId": "21ea52bf286183a67b18fc8e4f3faba8a6f4b87c",
       "imports": [
         {
@@ -5950,25 +5919,162 @@
       ]
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-parser/build/esm/is-binary.js": {
-      "mTimestamp": 1728042669832.5718,
+      "mTimestamp": 1728044037327.2617,
       "chunkId": "ac868c54ae96d44957bb4f91abe5fca0abe0718e",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/on.js": {
-      "mTimestamp": 1728042669898.0806,
+      "mTimestamp": 1728044037477.0098,
       "chunkId": "c539faa9c404b0c5612c9ad724dc78c833752782",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
     "file:///D:/cocosProject/footBallGame/game/node_modules/socket.io-client/build/esm/contrib/backo2.js": {
-      "mTimestamp": 1728042669807.5664,
+      "mTimestamp": 1728044037302.2605,
       "chunkId": "8c8f3738ff4eadabc8f67315ee4c9018c1e28f64",
       "imports": [],
       "type": "esm",
       "resolutions": []
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/plugins/sockte.io.mjs?cjs=&original=.js": {
+      "mTimestamp": 1728044798828.9143,
+      "chunkId": "0c7035c8831ae29a91f19902ecb2f513196f7108",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./sockte.io.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./sockte.io.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 30
+            }
+          }
+        },
+        {
+          "value": "./sockte.io.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/plugins/sockte.io.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/plugins/sockte.io.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/plugins/sockte.io.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/plugins/sockte.io.js": {
+      "mTimestamp": {
+        "mtime": 1728044798828.9143,
+        "uuid": "8e0e567f-9aad-4814-8afe-b44264c4801e"
+      },
+      "chunkId": "762db17ecb143e00329bae88597b1ba2d389e0a4",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }

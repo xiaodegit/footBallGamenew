@@ -54,7 +54,7 @@
       "uuid": "c42f631d-a1b0-417c-875d-113ade82688b"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\core\\loginClient.ts": {
-      "time": 1728042988605.6206,
+      "time": 1728046379108.2292,
       "uuid": "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\handlers\\playerCollition.ts": {
@@ -150,7 +150,7 @@
       "uuid": "f48832cd-a367-48b8-8103-5ea374cc6b28"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene": {
-      "time": 1728042988885.0889,
+      "time": 1728046401817.1753,
       "uuid": "0d42534b-3fa7-45c7-874a-b5fba28f3dfe"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene.meta": {
@@ -161,6 +161,20 @@
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\game.scene.meta": {
       "time": 1728039812532.6128
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\plugins.meta": {
+      "time": 1728044894767.8352
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\plugins": {
+      "time": 1728044894767.8352,
+      "uuid": "cc2a2d6b-306c-4592-9602-4f7ccd46213b"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\plugins\\sockte.io.js.meta": {
+      "time": 1728045443719.4363
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\plugins\\sockte.io.js": {
+      "time": 1728044798828.9143,
+      "uuid": "8e0e567f-9aad-4814-8afe-b44264c4801e"
     }
   },
   "missing": {

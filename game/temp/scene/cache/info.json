@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "13th Gen Intel(R) Core(TM) i5-13400F",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "0d42534b-3fa7-45c7-874a-b5fba28f3dfe": "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene"
+    },
+    "deviceMd5": "19b4d8c36c5b205623087f1b801a8884"
+}

@@ -1,10 +1,8 @@
-// server.js
-
 const http = require('http');
 const { Server } = require('socket.io');
 
 // 创建 HTTP 服务器
-function createServer() {
+module.exports = function createServer() {
     const httpServer = http.createServer();
     const io = new Server(httpServer, {
         cors: {
@@ -21,5 +19,3 @@ function createServer() {
 
     return { io, httpServer };
 }
-
-module.exports = createServer;

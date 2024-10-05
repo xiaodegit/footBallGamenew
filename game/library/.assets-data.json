@@ -162,5 +162,15 @@
       ]
     },
     "versionCode": 1
+  },
+  "cc2a2d6b-306c-4592-9602-4f7ccd46213b": {
+    "url": "db://assets/plugins",
+    "value": {},
+    "versionCode": 1
+  },
+  "8e0e567f-9aad-4814-8afe-b44264c4801e": {
+    "url": "db://assets/plugins/sockte.io.js",
+    "value": {},
+    "versionCode": 1
   }
 }

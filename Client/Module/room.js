@@ -8,7 +8,7 @@ module.exports = function roomModule(io) {
             }
             rooms[roomID].push(socket.id);
             socket.join(roomID);
-            console.log(`Player ${socket.id} joined room ${roomID}`);
+            console.log(`玩家 ${socket.id} 进入房间 ${roomID}`);
             io.to(roomID).emit('playerJoined', socket.id);
         });
 
@@ -16,7 +16,7 @@ module.exports = function roomModule(io) {
             if (rooms[roomID]) {
                 rooms[roomID] = rooms[roomID].filter(id => id !== socket.id);
                 socket.leave(roomID);
-                console.log(`Player ${socket.id} left room ${roomID}`);
+                console.log(`玩家 ${socket.id} 创建了房间 ${roomID}`);
                 io.to(roomID).emit('playerLeft', socket.id);
             }
         });

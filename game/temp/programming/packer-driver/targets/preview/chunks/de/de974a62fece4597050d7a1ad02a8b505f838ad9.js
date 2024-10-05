@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "socket.io-client"], function (_export, _context) {
+System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, EditBox, io, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, socketClient;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, EditBox, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, socketClient;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,27 +9,14 @@ System.register(["__unresolved_0", "cc", "socket.io-client"], function (_export,
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
-  function _reportPossibleCrUseOfio(extras) {
-    _reporterNs.report("io", "socket.io-client", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfSocket(extras) {
-    _reporterNs.report("Socket", "socket.io-client", _context.meta, extras);
-  }
-
   return {
-    setters: [function (_unresolved_) {
-      _reporterNs = _unresolved_;
-    }, function (_cc) {
+    setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
-      Button = _cc.Button;
       Component = _cc.Component;
       EditBox = _cc.EditBox;
-    }, function (_socketIoClient) {
-      io = _socketIoClient.default;
     }],
     execute: function () {
       _crd = true;
@@ -43,7 +30,7 @@ System.register(["__unresolved_0", "cc", "socket.io-client"], function (_export,
         property
       } = _decorator);
 
-      _export("socketClient", socketClient = (_dec = ccclass('socketClient'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec4 = property(Button), _dec(_class = (_class2 = class socketClient extends Component {
+      _export("socketClient", socketClient = (_dec = ccclass('socketClient'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec(_class = (_class2 = class socketClient extends Component {
         constructor() {
           super(...arguments);
 
@@ -51,28 +38,37 @@ System.register(["__unresolved_0", "cc", "socket.io-client"], function (_export,
 
           _initializerDefineProperty(this, "passwordInput", _descriptor2, this);
 
-          _initializerDefineProperty(this, "loginButton", _descriptor3, this);
-
           this.socket = void 0;
         }
 
+        // 使用 any 类型以避免类型错误
         start() {
-          this.socket = (_crd && io === void 0 ? (_reportPossibleCrUseOfio({
-            error: Error()
-          }), io) : io)('http://localhost:3000');
-          this.socket.emit('joinGame', {
-            playerName: 'Player1'
+          // 使用全局变量 io 进行连接
+          this.socket = window.io('http://localhost:3000'); // 监听连接成功事件
+
+          this.socket.on('connect', () => {
+            console.log('连接到服务器成功'); // 可以在这里发送加入游戏的事件或其他初始化操作
+
+            this.socket.emit('joinGame', {
+              playerName: 'Player1'
+            });
+          }); // 监听登录成功事件
+
+          this.socket.on('loginSuccess', data => {
+            console.log('登录成功:', data);
+          }); // 监听登录失败事件
+
+          this.socket.on('loginFailure', data => {
+            console.log('登录失败:', data);
           });
         }
-
-        update(deltaTime) {}
 
         onLoginButtonClicked() {
           if (this.usernameInput && this.passwordInput) {
             var username = this.usernameInput.string;
             var password = this.passwordInput.string;
-            console.log('username', username);
-            console.log('password', password); // 通过 Socket.io 发送登录请求
+            console.log('用户名', username);
+            console.log('密码', password); // 通过 Socket.io 发送登录请求
 
             this.socket.emit('login', {
               username,
@@ -89,13 +85,6 @@ System.register(["__unresolved_0", "cc", "socket.io-client"], function (_export,
           return null;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "passwordInput", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return null;
-        }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "loginButton", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,

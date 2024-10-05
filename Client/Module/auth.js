@@ -1,10 +1,10 @@
 module.exports = function authModule(io) {
     io.on('connection', (socket) => {
         socket.on('login', (credentials) => {
-            console.log('Player attempting to login:', credentials.username);
+            console.log('玩家尝试登录:', credentials.username);
             if (credentials.username && credentials.password) {
                 socket.emit('loginSuccess', { playerID: socket.id });
-                console.log('Player logged in successfully:', socket.id);
+                console.log('玩家登录成功:', socket.id);
             } else {
                 socket.emit('loginFailure', { reason: 'Invalid credentials' });
             }
