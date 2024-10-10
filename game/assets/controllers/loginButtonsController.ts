@@ -27,8 +27,8 @@ export class button extends Component {
             this.loginPage.active = true;
             console.log(this.loginPage);
 
-            this.loginPage.children[0].getComponent(EditBox).string = 'admin';
-            this.loginPage.children[1].getComponent(EditBox).string = '123456';
+            this.loginPage.children[0].getComponent(EditBox)!.string = 'admin';
+            this.loginPage.children[1].getComponent(EditBox)!.string = '123456';
         }
     }
 }

@@ -5,12 +5,12 @@ import { PlayerController } from "../controllers/PlayerController";
 export class PlayerManager {
     private static instance: PlayerManager;
     private jumpBoolean: Boolean;
-    private Floor: Node = null;
-    private over: Node;
+    private Floor!: Node;
+    private over!: Node;
 
     private force: number;
 
-    private playerController: PlayerController;
+    private playerController!: PlayerController;
 
     private constructor() {
         this.jumpBoolean = false;
@@ -24,7 +24,7 @@ export class PlayerManager {
         return PlayerManager.instance;
     }
 
-    public set setPlayerControllerClass(e) {
+    public set setPlayerControllerClass(e: PlayerController) {
         this.playerController = e;
     }
 
@@ -48,7 +48,7 @@ export class PlayerManager {
         return this.Floor;
     }
 
-    public set gameover(e) {
+    public set gameover(e: any) {
         this.over = e
     }
 
@@ -68,7 +68,7 @@ export class PlayerManager {
     }
 
     // 角色状态转换
-    playerState(e) {
+    playerState(e: string) {
         if (e == 'jump') {
             this.jump = true;
         } else if (e == 'run') {

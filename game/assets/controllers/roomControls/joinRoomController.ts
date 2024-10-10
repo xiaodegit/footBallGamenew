@@ -4,7 +4,7 @@ import { clientManager } from '../../managers/clientManager';
 
 @ccclass('joinRoomController')
 export class joinRoomController extends Component {
-    clientmanager:clientManager;
+    clientmanager!:clientManager;
     start() {
 
     }
@@ -13,9 +13,11 @@ export class joinRoomController extends Component {
     }
 
     onTouchStartGame() {
-        this.clientmanager.Socket.on('joinRoom',)
+        //开始匹配，发送自己的唯一id到服务器
+        this.clientmanager.Socket.emit('joinRoom',)
 
     }
+    
 }
 
 

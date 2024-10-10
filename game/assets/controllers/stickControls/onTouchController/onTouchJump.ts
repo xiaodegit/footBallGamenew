@@ -5,21 +5,21 @@ const { ccclass, property } = _decorator;
 
 @ccclass('onTouchJump')
 export class onTouchJump extends Component {
-    playerController: PlayerController;
-    touchLocationClone: Vec2;
-    footMotorController:FootMotorController;
+    playerController!: PlayerController;
+    touchLocationClone!: Vec2;
+    footMotorController!:FootMotorController;
     
     @property(Node)
-    player: Node;
+    player!: Node;
     @property(Node)
-    footMotorNode: Node;
+    footMotorNode!: Node;
 
     start() {
         this.node.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
         this.node.on(Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.node.on(Node.EventType.TOUCH_END, this.onTouchEnd, this);
-        this.playerController = this.player.getComponent(PlayerController);
-        this.footMotorController = this.footMotorNode.getComponent(FootMotorController);
+        this.playerController != this.player.getComponent(PlayerController);
+        this.footMotorController != this.footMotorNode.getComponent(FootMotorController);
     }
 
     boolean = false;

@@ -5,10 +5,10 @@ const { ccclass, property } = _decorator;
 @ccclass('onTouchStick')
 export class onTouchStick extends Component {
     @property(Node)
-    player: Node;
-    currentPosition: Vec3;
+    player!: Node;
+    currentPosition!: Vec3;
     private isSingleTouch: boolean = false;
-    playerController: PlayerController;
+    playerController!: PlayerController;
     isMoveBoolean: Boolean = false;;
     start() {
         // 注册触摸事件监听
@@ -18,10 +18,10 @@ export class onTouchStick extends Component {
         this.node.on(Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
 
         // 设置节点层级和层
-        this.node.setSiblingIndex(this.node.parent.children.length - 1);
+        this.node.setSiblingIndex(this.node.parent!.children.length - 1);
         this.node.layer = Layers.Enum.UI_2D;
 
-        this.playerController = this.player.getComponent(PlayerController);
+        this.playerController != this.player.getComponent(PlayerController);
     }
 
     protected update(dt: number): void {

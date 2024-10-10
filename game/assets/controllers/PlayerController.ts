@@ -15,14 +15,14 @@ export class PlayerController extends Component {
     })
     jumpForce: number = 1;
 
-    private playerManager: PlayerManager;
-    public savePlayerVec3: Vec2;
+    private playerManager!: PlayerManager;
+    public savePlayerVec3!: Vec2;
     private moveBoolean = false;
     start() {
         this.playerManager = PlayerManager.getInstance();
         this.rb = this.getComponent(RigidBody2D);
-        this.rb.type = ERigidBody2DType.Dynamic;
-        this.rb.gravityScale = 9.8;
+        this.rb!.type = ERigidBody2DType.Dynamic;
+        this.rb!.gravityScale = 9.8;
         // // 启用物理系统的调试绘制
         // PhysicsSystem2D.instance.debugDrawFlags =
         //     EPhysics2DDrawFlags.Aabb |
@@ -75,10 +75,10 @@ export class PlayerController extends Component {
 
     //瞬间加速度
     applyImpulseToRigidbody(m:Vec2) {
-        this.rb.linearDamping = 0.0;
-        this.rb.angularDamping = 0.0;
+        this.rb!.linearDamping = 0.0;
+        this.rb!.angularDamping = 0.0;
         let point = new Vec2(0, 0);
-        this.rb.applyLinearImpulse(m, point, true);
+        this.rb!.applyLinearImpulse(m, point, true);
     }
 
     //持续加速度
@@ -92,14 +92,15 @@ export class PlayerController extends Component {
     //是否播放跑步动画
     playerState() {
         if (this.playerManager.jump) {
-            this.getComponent(SkeletalAnimation).stop();
+            this.getComponent(SkeletalAnimation)!.stop();
         } else {
-            this.getComponent(SkeletalAnimation).play();
+            this.getComponent(SkeletalAnimation)!.play();
         }
     }
 
     // 清除物体的速度和角速度，停止运动
     stopMovement() {
+        if(!this.rb)return
         this.rb.linearVelocity = new Vec2(0, 0);
         this.rb.angularVelocity = 0;
         this.rb.linearDamping = 10;

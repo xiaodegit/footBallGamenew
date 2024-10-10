@@ -22,7 +22,7 @@ export class FootMotorController extends Component {
             // 设置马达速度进行旋转
 
             const rotationSpeed = -80 * Math.PI / 10; // 每秒旋转 90 度，单位是弧度/秒
-            this.hingeJoint.motorSpeed = rotationSpeed;
+            this.hingeJoint!.motorSpeed = rotationSpeed;
 
         // }
     }
@@ -36,9 +36,9 @@ export class FootMotorController extends Component {
         // 使用 scheduleOnce 在旋转结束后停止马达
         this.scheduleOnce(() => {
             const rotationSpeed = 80 * Math.PI / 30; // 每秒旋转 90 度，单位是弧度/秒
-            this.hingeJoint.motorSpeed = rotationSpeed;
+            this.hingeJoint!.motorSpeed = rotationSpeed;
         }, rotationDuration);
-        this.hingeJoint.motorSpeed = 0; // 停止马达旋转
+        this.hingeJoint!.motorSpeed = 0; // 停止马达旋转
         this.bool = false;
 
     }

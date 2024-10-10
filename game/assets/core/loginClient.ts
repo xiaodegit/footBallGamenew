@@ -12,34 +12,27 @@ export class socketClient extends Component {
     passwordInput: EditBox | null = null;
 
     clientmanager!: clientManager;
-protected onLoad(): void {
     
-    this.clientmanager = clientManager.getInstance();
-}
-    constructor() {
-        super();
-        
-    }
-
     start() {
-        console.log(this.clientmanager);
-        
+        this.clientmanager = clientManager.getInstance();
+
         // 使用全局变量 io 进行连接
         this.clientmanager.Socket = (window as any).io('http://localhost:3000');
 
+        let socket = this.clientmanager.Socket;
         // 监听连接成功事件
-        this.clientmanager.Socket.on('connect', () => {
+        socket.on('connect', () => {
             console.log('连接到服务器成功');
         });
 
         // 监听登录成功事件
-        this.clientmanager.Socket.on('loginSuccess', (data: any) => {
+        socket.on('loginSuccess', (data: any) => {
             console.log('登录成功:', data);
             director.loadScene('menu')
         });
 
         // 监听登录失败事件
-        this.clientmanager.Socket.on('loginFailure', (data: any) => {
+        socket.on('loginFailure', (data: any) => {
             console.log('登录失败:', data);
         });
     }

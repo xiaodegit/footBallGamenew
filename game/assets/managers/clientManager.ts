@@ -1,6 +1,6 @@
 export class clientManager {
     private static instance: clientManager;
-    private socket: any; // 使用 any 类型以避免类型错误
+    private socket: any;
 
     public static getInstance(): clientManager {
         if (!clientManager.instance) {
