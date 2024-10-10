@@ -766,7 +766,9 @@
       "__id__": 31
     },
     "movementSpeed": 100,
-    "rb": null,
+    "rb": {
+      "__id__": 13
+    },
     "jumpForce": 130,
     "_id": ""
   },

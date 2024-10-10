@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SkeletalAnimation, RigidBody2D, Vec2, ERigidBody2DType, PlayerManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, PlayerController;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, SkeletalAnimation, RigidBody2D, Vec2, ERigidBody2DType, PlayerManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, PlayerController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -42,24 +42,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         property
       } = _decorator);
 
-      _export("PlayerController", PlayerController = (_dec = ccclass('PlayerController'), _dec2 = property({
-        tooltip: "移动速度"
-      }), _dec3 = property(RigidBody2D), _dec4 = property({
+      _export("PlayerController", PlayerController = (_dec = ccclass('PlayerController'), _dec2 = property(RigidBody2D), _dec3 = property({
         tooltip: "跳跃力"
       }), _dec(_class = (_class2 = class PlayerController extends Component {
         constructor() {
           super(...arguments);
+          this.movementSpeed = 1;
 
-          _initializerDefineProperty(this, "movementSpeed", _descriptor, this);
+          _initializerDefineProperty(this, "rb", _descriptor, this);
 
-          _initializerDefineProperty(this, "rb", _descriptor2, this);
+          _initializerDefineProperty(this, "jumpForce", _descriptor2, this);
 
-          _initializerDefineProperty(this, "jumpForce", _descriptor3, this);
-
-          this.jumpBool = void 0;
-          this.recoveryCallback = null;
           this.playerManager = void 0;
-          this.jumpHight = void 0;
           this.savePlayerVec3 = void 0;
           this.moveBoolean = false;
         }
@@ -82,23 +76,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         runStart() {
           var skeletalAnimation = this.getComponent(SkeletalAnimation);
-          var animState = skeletalAnimation.getState('Take 001');
         }
 
-        update(dt) {
+        update() {
           if (!this.moveBoolean) {// this.stopMovement()
           }
         } //向左
 
 
-        addLeftMovement() {
-          var vec = new Vec2(-this.movementSpeed, 0);
-          this.LinearVelocity(vec);
-        } //向右
-
-
-        addRightMovement() {
-          var vec = new Vec2(this.movementSpeed, 0);
+        addMovement(e) {
+          var vec = new Vec2(e, 0);
           this.LinearVelocity(vec);
         } //跳跃
 
@@ -153,21 +140,18 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.rb.angularDamping = 10; // this.rb.sleep();
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "movementSpeed", [_dec2], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return 1;
+        setMovementSpeed(e) {
+          this.movementSpeed = e;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "rb", [_dec3], {
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "rb", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "jumpForce", [_dec4], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "jumpForce", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,

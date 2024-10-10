@@ -136,7 +136,6 @@
         "9ad32573-2379-45d4-88b3-246e0e52b450"
       ],
       "dependScripts": [
-        "019cef47-df36-4810-87ac-904fdf1ec930",
         "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f",
@@ -152,13 +151,16 @@
       "depends": [
         "0d42534b-3fa7-45c7-874a-b5fba28f3dfe",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
         "bd1bcaba-bd7d-4a71-b143-997c882383e4@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
       "dependScripts": [
-        "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+        "c42f631d-a1b0-417c-875d-113ade82688b",
+        "243d1323-124c-4bc1-b12f-0eca95b6f8ee",
+        "54e9cf45-21ee-44fc-8987-d1a9084751dc"
       ]
     },
     "versionCode": 1
@@ -170,6 +172,50 @@
   },
   "8e0e567f-9aad-4814-8afe-b44264c4801e": {
     "url": "db://assets/plugins/sockte.io.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "2e9fcd02-32bf-4499-8d5c-9332b1d529be": {
+    "url": "db://assets/src/scenes/menu.scene",
+    "value": {
+      "depends": [
+        "2e9fcd02-32bf-4499-8d5c-9332b1d529be",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "8f16064e-2c49-43cb-a046-0ba4419b84f2": {
+    "url": "db://assets/core/registerClient.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "54e9cf45-21ee-44fc-8987-d1a9084751dc": {
+    "url": "db://assets/controllers/loginButtonsController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cd1cd5a3-c049-48f0-801c-e4fcb7606fb8": {
+    "url": "db://assets/src/prefabs/player1.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "c5c3cff7-1a23-4ddf-ad14-53ac88f013ac": {
+    "url": "db://assets/controllers/roomControls",
+    "value": {},
+    "versionCode": 1
+  },
+  "aeb1ceed-b543-47ad-90c3-c4629e9e8f1e": {
+    "url": "db://assets/controllers/roomControls/joinRoomController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d526450d-e0f3-4a20-a3bc-07033e3809be": {
+    "url": "db://assets/managers/clientManager.ts",
     "value": {},
     "versionCode": 1
   }

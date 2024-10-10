@@ -1,4 +1,5 @@
-import { _decorator, Button, Component, EditBox } from 'cc';
+import { _decorator, Button, Component, director, EditBox } from 'cc';
+import { clientManager } from '../managers/clientManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('socketClient')
@@ -10,25 +11,35 @@ export class socketClient extends Component {
     @property(EditBox)
     passwordInput: EditBox | null = null;
 
-    private socket: any; // 使用 any 类型以避免类型错误
+    clientmanager!: clientManager;
+protected onLoad(): void {
+    
+    this.clientmanager = clientManager.getInstance();
+}
+    constructor() {
+        super();
+        
+    }
 
     start() {
+        console.log(this.clientmanager);
+        
         // 使用全局变量 io 进行连接
-        this.socket = (window as any).io('http://localhost:3000');
+        this.clientmanager.Socket = (window as any).io('http://localhost:3000');
+
         // 监听连接成功事件
-        this.socket.on('connect', () => {
+        this.clientmanager.Socket.on('connect', () => {
             console.log('连接到服务器成功');
-            // 可以在这里发送加入游戏的事件或其他初始化操作
-            this.socket.emit('joinGame', { playerName: 'Player1' });
         });
 
         // 监听登录成功事件
-        this.socket.on('loginSuccess', (data: any) => {
+        this.clientmanager.Socket.on('loginSuccess', (data: any) => {
             console.log('登录成功:', data);
+            director.loadScene('menu')
         });
 
         // 监听登录失败事件
-        this.socket.on('loginFailure', (data: any) => {
+        this.clientmanager.Socket.on('loginFailure', (data: any) => {
             console.log('登录失败:', data);
         });
     }
@@ -41,7 +52,8 @@ export class socketClient extends Component {
             console.log('密码', password);
 
             // 通过 Socket.io 发送登录请求
-            this.socket.emit('login', { username, password });
+            this.clientmanager.Socket.emit('login', { username, password });
         }
     }
+
 }

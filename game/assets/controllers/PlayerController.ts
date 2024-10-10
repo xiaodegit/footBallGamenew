@@ -5,10 +5,6 @@ const { ccclass, property } = _decorator;
 
 @ccclass('PlayerController')
 export class PlayerController extends Component {
-
-    @property({
-        tooltip: "移动速度"
-    })
     private movementSpeed = 1;
 
     @property(RigidBody2D)
@@ -18,11 +14,8 @@ export class PlayerController extends Component {
         tooltip: "跳跃力"
     })
     jumpForce: number = 1;
-    private jumpBool;
 
-    private recoveryCallback: Function = null;
     private playerManager: PlayerManager;
-    private jumpHight: number;
     public savePlayerVec3: Vec2;
     private moveBoolean = false;
     start() {
@@ -43,10 +36,9 @@ export class PlayerController extends Component {
     //向前推加速度-开跑 
     runStart() {
         const skeletalAnimation = this.getComponent(SkeletalAnimation);
-        const animState = skeletalAnimation.getState('Take 001');
     }
 
-    update(dt) {
+    update() {
         if (!this.moveBoolean) {
             // this.stopMovement()
         }
@@ -54,15 +46,8 @@ export class PlayerController extends Component {
 
 
     //向左
-    addLeftMovement() {
-        let vec = new Vec2(-this.movementSpeed, 0);
-        this.LinearVelocity(vec)
-
-    }
-
-    //向右
-    addRightMovement() {
-        let vec = new Vec2(this.movementSpeed, 0);
+    addMovement(e:number) {
+        let vec = new Vec2(e, 0);
         this.LinearVelocity(vec)
 
     }
@@ -80,7 +65,7 @@ export class PlayerController extends Component {
     }
 
     //线性加速度
-    LinearVelocity(e) {
+    LinearVelocity(e:Vec2) {
 
         if (this.rb) {
             this.rb.linearVelocity = e;
@@ -89,7 +74,7 @@ export class PlayerController extends Component {
     }
 
     //瞬间加速度
-    applyImpulseToRigidbody(m) {
+    applyImpulseToRigidbody(m:Vec2) {
         this.rb.linearDamping = 0.0;
         this.rb.angularDamping = 0.0;
         let point = new Vec2(0, 0);
@@ -97,7 +82,7 @@ export class PlayerController extends Component {
     }
 
     //持续加速度
-    applyForceToRigidbody(m) {
+    applyForceToRigidbody(m:Vec2) {
         if (!this.rb) return;
         console.log('持续加速度');
         let point = new Vec2(0, 0);
@@ -122,4 +107,7 @@ export class PlayerController extends Component {
         // this.rb.sleep();
     }
 
+    setMovementSpeed(e:number){
+        this.movementSpeed = e;
+    }
 }

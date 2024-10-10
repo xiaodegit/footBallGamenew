@@ -12,6 +12,7 @@ module.exports = function createServer() {
 
     io.on('connection', (socket) => {
         console.log('用户已连接:', socket.id);
+        
         socket.on('disconnect', () => {
             console.log('用户连接已断开:', socket.id);
         });

@@ -2,11 +2,11 @@
   "version": "1.0.0",
   "map": {
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers": {
-      "time": 1728039888560.3088,
+      "time": 1728469248608.0088,
       "uuid": "3826bd9c-5f66-4970-a480-e1e163ba7941"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\core": {
-      "time": 1728039888592.6985,
+      "time": 1728217019250.33,
       "uuid": "5892ead2-a8d2-4ffa-a4b6-e3be5867d635"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\handlers": {
@@ -14,7 +14,7 @@
       "uuid": "56b87245-b071-46ae-8a50-66d3e82154e0"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\managers": {
-      "time": 1728042302510.2136,
+      "time": 1728525113286.3132,
       "uuid": "2df7f738-10b7-4655-91e6-8cdaff7eb10f"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src": {
@@ -30,11 +30,11 @@
       "uuid": "f9f34cd4-a077-4fb3-a89f-2d7754d4241e"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\prefabs": {
-      "time": 1728039888632.4458,
+      "time": 1728446709879.9924,
       "uuid": "1d99654c-3fb1-49a5-8682-78af73d5fd90"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes": {
-      "time": 1728040932001.525,
+      "time": 1728095381015.5586,
       "uuid": "7922c581-6178-4d76-b915-826f1d5d8618"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\stickControls\\onTouchController": {
@@ -42,7 +42,7 @@
       "uuid": "bc802034-eb8c-4de2-9ee3-3cc243f637a3"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\PlayerController.ts": {
-      "time": 1728039812518.1038,
+      "time": 1728465862673.48,
       "uuid": "264245bd-e409-4e31-980e-4e9a329f804f"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\RockerController.ts": {
@@ -50,11 +50,11 @@
       "uuid": "4ad3bf4f-a365-4696-ba8d-855350b98bff"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\core\\game.ts": {
-      "time": 1728042318705.81,
+      "time": 1728525858790.7295,
       "uuid": "c42f631d-a1b0-417c-875d-113ade82688b"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\core\\loginClient.ts": {
-      "time": 1728046379108.2292,
+      "time": 1728525779545.2444,
       "uuid": "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\handlers\\playerCollition.ts": {
@@ -66,7 +66,7 @@
       "uuid": "cf253f2e-4478-43b3-b2e2-7ade07afc75a"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\jointControls\\FootMotorController.ts": {
-      "time": 1728039812520.104,
+      "time": 1728467705642.5117,
       "uuid": "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\stickControls\\StickController.ts": {
@@ -74,11 +74,11 @@
       "uuid": "96edff91-7681-49a4-9c8c-3793aa5ea3a8"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\stickControls\\onTouchController\\onTouchJump.ts": {
-      "time": 1728039812522.1035,
+      "time": 1728467184783.4814,
       "uuid": "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\stickControls\\onTouchController\\onTouchStick.ts": {
-      "time": 1728039812523.104,
+      "time": 1728466137025.386,
       "uuid": "4ed92c0b-1bfa-41af-a269-696106c2bfb6"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers.meta": {
@@ -142,15 +142,15 @@
       "time": 1728039812523.104
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\prefabs\\player.prefab": {
-      "time": 1728039812530.6128,
+      "time": 1728446810013.5225,
       "uuid": "b3e09e3a-4bf3-4c7b-bb55-281bcafc7be0"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\game.scene": {
-      "time": 1728039812532.6128,
+      "time": 1728469133393.9036,
       "uuid": "f48832cd-a367-48b8-8103-5ea374cc6b28"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene": {
-      "time": 1728094630285.9514,
+      "time": 1728525882879.4192,
       "uuid": "0d42534b-3fa7-45c7-874a-b5fba28f3dfe"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene.meta": {
@@ -175,6 +175,41 @@
     "D:\\cocosProject\\footBallGame\\game\\assets\\plugins\\sockte.io.js": {
       "time": 1728044798828.9143,
       "uuid": "8e0e567f-9aad-4814-8afe-b44264c4801e"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\menu.scene.meta": {
+      "time": 1728095381019.559
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\menu.scene": {
+      "time": 1728525550905.4404,
+      "uuid": "2e9fcd02-32bf-4499-8d5c-9332b1d529be"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\loginButtonsController.ts.meta": {
+      "time": 1728209416736.9202
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\loginButtonsController.ts": {
+      "time": 1728216666079.5432,
+      "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\roomControls.meta": {
+      "time": 1728469248610.011
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\roomControls": {
+      "time": 1728469260360.306,
+      "uuid": "c5c3cff7-1a23-4ddf-ad14-53ac88f013ac"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\roomControls\\joinRoomController.ts.meta": {
+      "time": 1728469260362.472
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\roomControls\\joinRoomController.ts": {
+      "time": 1728525436376.9402,
+      "uuid": "aeb1ceed-b543-47ad-90c3-c4629e9e8f1e"
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\managers\\clientManager.ts.meta": {
+      "time": 1728525113288.314
+    },
+    "D:\\cocosProject\\footBallGame\\game\\assets\\managers\\clientManager.ts": {
+      "time": 1728525234802.389,
+      "uuid": "d526450d-e0f3-4a20-a3bc-07033e3809be"
     }
   },
   "missing": {
@@ -187,6 +222,21 @@
       "path": "D:\\cocosProject\\footBallGame\\game\\assets\\managers\\RoadManager.ts",
       "time": 1728039812528.6118,
       "removeTime": 1728042396775
+    },
+    "54e9cf45-21ee-44fc-8987-d1a9084751dc": {
+      "path": "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\buttonsController.ts",
+      "time": 1728209416733.7092,
+      "removeTime": 1728209452973
+    },
+    "8f16064e-2c49-43cb-a046-0ba4419b84f2": {
+      "path": "D:\\cocosProject\\footBallGame\\game\\assets\\core\\registerClient.ts",
+      "time": 1728209400221.6807,
+      "removeTime": 1728217021190
+    },
+    "cd1cd5a3-c049-48f0-801c-e4fcb7606fb8": {
+      "path": "D:\\cocosProject\\footBallGame\\game\\assets\\src\\prefabs\\player1.prefab",
+      "time": 1728446511514.6643,
+      "removeTime": 1728446709730
     }
   }
 }

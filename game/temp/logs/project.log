@@ -244,3 +244,982 @@ Class ID: "243d1MjEkxLwbEvDsqVtvju"
 
     at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
     at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-4 20:28:16 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/81/file:/D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js:13:32)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-10-4 20:28:16 - warn: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvjuError: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvju
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-4 20:28:16 - error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+Error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-4 20:28:21 - log: 20:28:19 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+20:28:19 [DEBUG]: WORKAREA WIDTH 3432.00, HEIGHT 1341.00
+20:28:19 [DEBUG]: FRAME SCALE = 1.00
+20:28:19 [DEBUG]: Project Config:
+20:28:19 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release\
+20:28:19 [DEBUG]:     writable path: $(PROJDIR)\
+20:28:19 [DEBUG]:     script file: $(PROJDIR)\main.js
+20:28:19 [DEBUG]:     frame size: 852 x 393
+20:28:19 [DEBUG]:     frame scale: 1.00
+20:28:19 [DEBUG]:     show console: NO
+20:28:19 [DEBUG]:     write debug log: NO ()
+20:28:19 [DEBUG]:     listen: 
+20:28:19 [DEBUG]:     debugger: none
+20:28:19 [DEBUG]:     add searching path:
+20:28:19 [DEBUG]: 
+
+
+20:28:19 [DEBUG]: [WARNING]:not find lang
+20:28:20 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+20:28:20 [DEBUG]: EGL context bounded to thread 5a426227a20ff38d
+20:28:20 [INFO]: GLES3 device initialized.
+20:28:20 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2) (SDK Build: 18.1@5086772)
+20:28:20 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)
+20:28:20 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 546.33)
+20:28:20 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+20:28:20 [INFO]: FRAMEBUFFER_FETCH: NONE
+20:28:20 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
+20:28:20 [INFO]: Device validator enabled.
+20:28:20 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
+
+20:28:20 [DEBUG]: D/ libuv version: 1.41.0
+
+20:28:20 [DEBUG]: D/ Number of interfaces: 9
+20:28:20 [DEBUG]: D/ Debugger listening..., visit [
+20:28:20 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+20:28:20 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=169.254.86.249:5086/00010002-0003-4004-8005-000600070008
+20:28:20 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=169.254.14.52:5086/00010002-0003-4004-8005-000600070008
+20:28:20 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.0.106:5086/00010002-0003-4004-8005-000600070008
+20:28:20 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=172.22.80.1:5086/00010002-0003-4004-8005-000600070008
+20:28:20 [DEBUG]: D/   ] in chrome browser to debug!
+20:28:20 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+20:28:20 [INFO]: JS: injectWebAssembly ...
+20:28:20 [DEBUG]: In the constructor of HttpClient!
+20:28:20 [DEBUG]: iShow!
+20:28:20 [DEBUG]: EventBus[Engine] has no listener found!
+20:28:20 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js
+20:28:20 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
+20:28:20 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+20:28:20 [DEBUG]: JS: [PHYSICS2D]: register box2d.
+20:28:20 [DEBUG]: EGL context bounded to thread 6d4c06681a9e7299
+20:28:20 [INFO]: Device thread detached.
+20:28:21 [DEBUG]: JS: Cocos Creator v3.8.3
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/20/2061fd2dad7ae9dbc6c49c39743e9b236cd9a98f.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/af/af71088bde485f36056f7c3517061b68e63b10e3.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1b/1b6e9e4b0bcbd74d96bcc055a8f11a03c9c37cc5.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/49/4961e0d49949402cd0b1df813518511aa2af4063.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1a/1a6427a88f650026605795485b94ba685d92
+2024-10-4 20:28:21 - log: ffe0.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/7e/7e87dfcf1581d7201f5be021e92a68fdcaf49815.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/21/21d810c14cc6593111d78c29c59534da2a872cfe.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/de/de974a62fece4597050d7a1ad02a8b505f838ad9.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6d/6d93275ed330f0b77b07dbabaeef29d84e126e9d.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/9a/9a80560e82af57f106950dd5a5a929d27af0ea33.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/0c/0c7035c8831ae29a91f19902ecb2f513196f7108.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/4e/4ee38fad6234598dbd2d5e74483857c5ecb3d038.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/76/762db17ecb143e00329bae88597b1ba2d389e0a4.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/a0/a0d063530de23ddade53e1a935bf64c81277c061.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/0c/0c552d9494e65335ea84a691e001f062ae416d72.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/14/14c91f932613d8628f8a38e5db8666cc56166933.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/35/3590d91f6c430de99b671df53f284c7237300500.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/a4/a44f34d8223daad8346dfa09d4c98d745c0f1044.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/ab/abfd9d9ecbc557be2dd3fd7fb1a0d4df3306bde6.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/c5/c539faa9c404b0c5612c9ad724dc78c833752782.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/8c/8c8f3738ff4eadabc8f67315ee4c9018c1e28f64.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/8b/8b96d8d35cc64758b7d5e36f3a77407b53dd687d.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/21/21ea52bf286183a67b18fc8e4f3faba8a6f4b87c.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/ac/ac868c54ae96d44957bb4f91abe5fca0abe0718e.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1e/1edf214a140854133b6c0d28e3aed2af0f120dfb.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/d9/d90fac5ce22f37c60959498e36240807402faaf3.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/81/81ba4b4b0c43c05f868e4acb22400d761835d608.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/88/883133674f33f47ade19c2412206937cd33cbe85.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/ba/ba5a03880e3996f161cc209548760aabb2c94203.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/7b/7b5c88e67e7580737807b969aef930f5b74e82ad.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/88/88f26e6d73e4e0689f2b9b89494a7a6ee382d0bc.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/53/533ba5f554544abe135cec57977b69f407c1ca86.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/0e/0e94ddf118c3a35b54ddb9952ed2a6385090b016.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/13/136fb246f9a185ebc0ca2886edf559966faec4b3.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/4f/4f0f2522e392c0ca97af46eac267024fc7291982.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/e9/e94819a8d291a2e4378c0e901cfbb9b44f17b369.js
+20:28:21 [DEBUG]: JS: ht
+2024-10-4 20:28:21 - log: tpHandler: http://192.168.0.106:7456/scripting/x/chunks/8a/8a5b85b19306803856ecf8d9a921e393c32463d1.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/ad/ad58912ac824aa5568bad20567ab8f1db84489ab.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/10/10314ff9dc23a77fe13e8dff7c64b8462d6d73bb.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/3d/3d2e5fe2d84345523fae06f7cb5f4431d85e0252.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/4c/4cd0f28491e96575ce2c2baf4d6d68768ff8bd39.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/d3/d3f2074c0551ad761f070b3d0c7a538619ced10a.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/8e/8edb5bbd884eb7b6d84dd9f05ad1791416e6d9a9.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/b1/b1bf9114a95e653e48cbc0bfe01dbf98431167b4.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/0f/0f65c7f1d073966942c644c608a84340de6d42ed.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/41/4140ae830b3fcd0c4c6c267bab77046bdea4d4ea.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/f0/f09159b917545b42178fe2ad5fee1e16d7ce5bb6.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/f4/f4b8586c4c22f895c1d6c10cb3028a238ee849dd.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1f/1f2cf78fe5d93e61f70f49ed6aecfa0c439d3418.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/47/47f6e88654fed7cb0e42bf305722e8fdb4a7c0d2.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/e6/e685ec46ac103bad1d8df6ce63412fe059388cb2.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/d7/d784d1c8a3eedb17ff5ccd0ec9b63c49250863a8.js
+20:28:21 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/8d/8d70d3eda08058cecbee881697d104ebed30e0d7.js
+20:28:21 [ERROR]: E/ ScriptEngine::evalString catch exception:
+
+20:28:21 [ERROR]: E/ ERROR: Uncaught Error: Failed to require file 'fs', not found!, location: (no filename):0:0
+STACK:
+ - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader.define.fs@(no filename):40:18
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ - [11]requir
+20:28:21 [ERROR]: JS: (see stack) Uncaught Error: Failed to require file 'fs', not found!  - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader.define.fs@(no filename):40:18
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ - [11]require@(no filename):36:23
+ - [12]execute@(no filename):27:14
+ - [13]doExec@src/system.bundle.js:504:32
+ - [14]postOrderExec@src/system.bundle.js:495:23
+ - [15]anonymous@src/system.bundle.js:480:30
+ - [16]postOrderExec@src/system.bundle.js:478:12
+ - [17]anonymous@src/system.bundle.js:480:30
+20:28:21 [ERROR]: E/ ScriptEngine::evalString script (no filename), failed!
+
+20:28:21 [ERROR]: E/ [ERROR] Failed to invoke require
+
+20:28:21 [ERROR]: E/ ScriptEngine::evalString catch exception:
+
+20:28:21 [ERROR]: E/ ERROR: Uncaught Error: Failed to require file 'url', not found!, location: (no filename):0:0
+STACK:
+ - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader
+2024-10-4 20:28:36 - log: .define.fs@(no filename):42:19
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ - [11]requi
+20:28:21 [ERROR]: JS: (see stack) Uncaught Error: Failed to require file 'url', not found!  - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader.define.fs@(no filename):42:19
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ - [11]require@(no filename):36:23
+ - [12]execute@(no filename):27:14
+ - [13]doExec@src/system.bundle.js:504:32
+ - [14]postOrderExec@src/system.bundle.js:495:23
+ - [15]anonymous@src/system.bundle.js:480:30
+ - [16]postOrderExec@src/system.bundle.js:478:12
+ - [17]anonymous@src/system.bundle.js:480:30
+20:28:21 [ERROR]: E/ ScriptEngine::evalString script (no filename), failed!
+
+20:28:21 [ERROR]: E/ [ERROR] Failed to invoke require
+
+20:28:21 [ERROR]: E/ ScriptEngine::evalString catch exception:
+
+20:28:21 [ERROR]: E/ ERROR: Uncaught Error: Failed to require file 'child_process', not found!, location: (no filename):0:0
+STACK:
+ - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader.define.fs@(no filename):44:21
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ -
+20:28:21 [ERROR]: JS: (see stack) Uncaught Error: Failed to require file 'child_process', not found!  - [0]anonymous@(no filename):1:7
+ - [1]factory@(no filename):122:34
+ - [2]_load@(no filename):103:11
+ - [3]_tryModuleLoad@(no filename):83:18
+ - [4]_require@(no filename):56:16
+ - [5]eval@(no filename):133:36
+ - [6]eval@(no filename):141:22
+ - [7]_cjsLoader.define.fs@(no filename):44:21
+ - [8]_load@(no filename):103:11
+ - [9]_tryModuleLoad@(no filename):83:18
+ - [10]_require@(no filename):56:16
+ - [11]require@(no filename):36:23
+ - [12]execute@(no filename):27:14
+ - [13]doExec@src/system.bundle.js:504:32
+ - [14]postOrderExec@src/system.bundle.js:495:23
+ - [15]anonymous@src/system.bundle.js:480:30
+ - [16]postOrderExec@src/system.bundle.js:478:12
+ - [17]anonymous@src/system.bundle.js:480:30
+20:28:21 [ERROR]: E/ ScriptEngine::evalString script (no filename), failed!
+
+20:28:21 [ERROR]: E/ [ERROR] Failed to invoke require
+
+20:28:21 [ERROR]: JS: TypeError: Cannot read properties of undefined (reading 'spawn')
+20:28:36 [DEBUG]: HttpClient::destroyInstance begin
+20:28:36 [DEBUG]: HttpClient destructor
+20:28:36 [DEBUG]: HttpClient::destroyInstance() finished!
+20:28:36 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+20:28:36 [DEBUG]: D/ GC begin ..., (js->native map) size: 144
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B733340 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B733690 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B735110 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B7339E0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B733D30 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B732FF0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B735460 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B734080 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B7361A0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B7357B0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B732950 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B734DC0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B735B00 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B735E50 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B7364F0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B7343D0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpReque
+2024-10-4 20:28:36 - log: st_finalize, 000001C93B734720 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B40786B0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4075500 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4078A00 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4075EF0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4076240 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4076590 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4076F80 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4076C30 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B40768E0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B40772D0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4077970 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4077620 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4077CC0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4078010 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4078360 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4074E60 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B40751B0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4075850 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B4075BA0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1C410 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1CE00 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1D150 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1DE90 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1E530 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1FFB0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1CAB0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1F910 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1E880 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1EBD0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1EF20 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1F270 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1FC60 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B27D3B80 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B3D77370 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B3E2EFC0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BA9E9A0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1E1E0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1D7F0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1DB40 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1C760 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1D4A0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BE1F5C0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BC92590 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C8B3E2F310 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BC95240 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B927890 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B8EF6F0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B8EFA40 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBE800 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBDAC0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBD420 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBD0D0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBCD80 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBE4B0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBE160 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBD770 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93BCBDE10 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B732CA0 ... 
+
+20:28:36 [DEBUG]: D/ XMLHttpRequest_finalize, 000001C93B73
+2024-10-4 20:28:36 - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2024-10-4 20:28:36 - log: 4A70 ... 
+
+20:28:36 [DEBUG]: D/ GC end ..., (js->native map) size: 67
+
+20:28:36 [DEBUG]: D/ GC begin ..., (js->native map) size: 67
+
+20:28:36 [DEBUG]: D/ GC end ..., (js->native map) size: 67
+
+20:28:36 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+20:28:36 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+20:28:36 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+20:28:36 [DEBUG]: EGL context bounded to thread 6d4c06681a9e7299
+
+2024-10-4 20:28:40 - info: [PreviewInEditor] 预览环境初始化完毕
+2024-10-4 20:28:40 - log: [PreviewInEditor] meshopt wasm decoder initialized
+2024-10-4 20:28:40 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+2024-10-4 20:28:40 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+2024-10-4 20:28:40 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+2024-10-4 20:28:40 - log: [PreviewInEditor] Cocos Creator v3.8.3
+2024-10-4 20:28:40 - info: [PreviewInEditor] Forward render pipeline initialized.
+2024-10-4 20:28:41 - error: [PreviewInEditor] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/81/file:/D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js:13:32)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28Error: [PreviewInEditor] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-10-4 20:28:41 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-10-4 20:28:41 - warn: [PreviewInEditor] Missing class: 243d1MjEkxLwbEvDsqVtvjuError: [PreviewInEditor] Missing class: 243d1MjEkxLwbEvDsqVtvju
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-4 20:28:41 - error: [PreviewInEditor] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+Error: [PreviewInEditor] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-4 20:28:41 - warn: [PreviewInEditor] Script attached to 'login' is missing or invalid.Error: [PreviewInEditor] Script attached to 'login' is missing or invalid.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160118:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:160300:5)
+    at MissingScript.onLoad (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:24085:11)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40456:132)
+    at OneOffInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at OneOffInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38496:16)
+    at NodeActivator.activateNode (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:40508:27)
+2024-10-4 20:29:08 - warn: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvjuError: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvju
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-4 20:29:08 - error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+Error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-4 20:29:13 - info: [PreviewInEditor] 预览环境初始化完毕
+2024-10-4 20:37:23 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/81/file:/D:/cocosProject/footBallGame/game/node_modules/engine.io-client/build/esm/transport.js:13:32)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} TypeError: Class extends value undefined is not a constructor or null
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:491:10)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:493:28
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-10-4 20:37:23 - warn: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvjuError: [Scene] Missing class: 243d1MjEkxLwbEvDsqVtvju
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-4 20:37:23 - error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+Error: [Scene] Script "243d1MjEkxLwbEvDsqVtvju" attached to "login" is missing or invalid. Detailed information:
+Node path: "Canvas/login"
+Script UUID: "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
+Class ID: "243d1MjEkxLwbEvDsqVtvju"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-5 10:17:31 - log: 10:17:29 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+10:17:29 [DEBUG]: WORKAREA WIDTH 3432.00, HEIGHT 1341.00
+10:17:29 [DEBUG]: FRAME SCALE = 1.00
+10:17:29 [DEBUG]: Project Config:
+10:17:29 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release\
+10:17:29 [DEBUG]:     writable path: $(PROJDIR)\
+10:17:29 [DEBUG]:     script file: $(PROJDIR)\main.js
+10:17:29 [DEBUG]:     frame size: 852 x 393
+10:17:29 [DEBUG]:     frame scale: 1.00
+10:17:29 [DEBUG]:     show console: NO
+10:17:29 [DEBUG]:     write debug log: NO ()
+10:17:29 [DEBUG]:     listen: 
+10:17:29 [DEBUG]:     debugger: none
+10:17:29 [DEBUG]:     add searching path:
+10:17:29 [DEBUG]: 
+
+
+10:17:29 [DEBUG]: [WARNING]:not find lang
+10:17:30 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+10:17:30 [DEBUG]: EGL context bounded to thread 5305655f21bee5c0
+10:17:30 [INFO]: GLES3 device initialized.
+10:17:30 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2) (SDK Build: 18.1@5086772)
+10:17:30 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)
+10:17:30 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 546.33)
+10:17:30 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+10:17:30 [INFO]: FRAMEBUFFER_FETCH: NONE
+10:17:30 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
+10:17:30 [INFO]: Device validator enabled.
+10:17:30 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
+
+10:17:30 [DEBUG]: D/ libuv version: 1.41.0
+
+10:17:30 [DEBUG]: D/ Number of interfaces: 9
+10:17:30 [DEBUG]: D/ Debugger listening..., visit [
+10:17:30 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+10:17:30 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=169.254.86.249:5086/00010002-0003-4004-8005-000600070008
+10:17:30 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=169.254.14.52:5086/00010002-0003-4004-8005-000600070008
+10:17:30 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.0.106:5086/00010002-0003-4004-8005-000600070008
+10:17:30 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=172.22.80.1:5086/00010002-0003-4004-8005-000600070008
+10:17:30 [DEBUG]: D/   ] in chrome browser to debug!
+10:17:30 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+10:17:30 [INFO]: JS: injectWebAssembly ...
+10:17:30 [DEBUG]: In the constructor of HttpClient!
+10:17:30 [DEBUG]: iShow!
+10:17:30 [DEBUG]: EventBus[Engine] has no listener found!
+10:17:30 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js
+10:17:31 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
+10:17:31 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+10:17:31 [DEBUG]: JS: [PHYSICS2D]: register box2d.
+10:17:31 [DEBUG]: EGL context bounded to thread a40203ad597c2875
+10:17:31 [INFO]: Device thread detached.
+10:17:31 [DEBUG]: JS: Cocos Creator v3.8.3
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/20/2061fd2dad7ae9dbc6c49c39743e9b236cd9a98f.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/af/af71088bde485f36056f7c3517061b68e63b10e3.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1b/1b6e9e4b0bcbd74d96bcc055a8f11a03c9c37cc5.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/49/4961e0d49949402cd0b1df813518511aa2af4063.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/1a/1a6427a88f650026605795485b94ba685d92
+2024-10-5 10:17:45 - log: ffe0.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/7e/7e87dfcf1581d7201f5be021e92a68fdcaf49815.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/21/21d810c14cc6593111d78c29c59534da2a872cfe.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/de/de974a62fece4597050d7a1ad02a8b505f838ad9.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6d/6d93275ed330f0b77b07dbabaeef29d84e126e9d.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/9a/9a80560e82af57f106950dd5a5a929d27af0ea33.js
+10:17:31 [DEBUG]: JS: httpHandler: http://192.168.0.106:7456/scripting/x/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js
+10:17:31 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830B730 ... 
+
+10:17:31 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830E8E0 ... 
+
+10:17:31 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+10:17:31 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+10:17:41 [DEBUG]: JS: ??? 1
+10:17:41 [DEBUG]: JS: ?? 2
+10:17:43 [DEBUG]: JS: ??? 1
+10:17:43 [DEBUG]: JS: ?? 2
+10:17:44 [DEBUG]: JS: ??? 1
+10:17:44 [DEBUG]: JS: ?? 2
+10:17:44 [DEBUG]: JS: ??? 1
+10:17:44 [DEBUG]: JS: ?? 2
+10:17:45 [DEBUG]: HttpClient::destroyInstance begin
+10:17:45 [DEBUG]: HttpClient destructor
+10:17:45 [DEBUG]: HttpClient::destroyInstance() finished!
+10:17:45 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+10:17:45 [DEBUG]: D/ GC begin ..., (js->native map) size: 373
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002770550CAC0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830B090 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830E8E0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830B730 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875CB70 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875C820 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875DC00 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875D560 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875DF50 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875D8B0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875CEC0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875D210 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774875E2A0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FAC40 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FAF90 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FB630 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FB2E0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FA250 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FA8F0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484FA5A0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830D850 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830B3E0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830BA80 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830C120 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830CE60 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830D1B0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830DBA0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830BDD0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830DEF0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830C470 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830C7C0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830E590 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830CB10 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830EC30 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277057CC210 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize
+2024-10-5 10:17:45 - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2024-10-5 10:17:45 - log: , 000002774800EBD0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277057FBCA0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027705938040 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277058BFC10 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277059B74B0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027748675BF0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002770590B370 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277484DD490 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002770596F840 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277059708D0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027705970F70 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027705970C20 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002770596FB90 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 00000277059712C0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002770596FEE0 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027705970230 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 0000027705970580 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830E240 ... 
+
+10:17:45 [DEBUG]: D/ XMLHttpRequest_finalize, 000002774830D500 ... 
+
+10:17:45 [DEBUG]: D/ GC end ..., (js->native map) size: 238
+
+10:17:45 [DEBUG]: D/ GC begin ..., (js->native map) size: 238
+
+10:17:45 [DEBUG]: D/ GC end ..., (js->native map) size: 238
+
+10:17:45 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+10:17:45 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+10:17:45 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+10:17:45 [DEBUG]: EGL context bounded to thread a40203ad597c2875
+
+2024-10-5 10:17:49 - info: [PreviewInEditor] 预览环境初始化完毕
+2024-10-5 10:17:49 - log: [PreviewInEditor] meshopt wasm decoder initialized
+2024-10-5 10:17:49 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+2024-10-5 10:17:49 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+2024-10-5 10:17:49 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+2024-10-5 10:17:49 - log: [PreviewInEditor] Cocos Creator v3.8.3
+2024-10-5 10:17:49 - info: [PreviewInEditor] Forward render pipeline initialized.
+2024-10-5 10:17:50 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2024-10-5 10:17:50 - error: [PreviewInEditor] window.io is not a functionTypeError: window.io is not a function
+    at socketClient.start (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/de/file:/D:/cocosProject/footBallGame/game/assets/core/loginClient.ts:17:39)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38550:16)
+    at OneOffInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38380:9)
+    at OneOffInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38496:16)
+    at ComponentScheduler.startPhase (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38728:29)
+    at Director.tick (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:19278:35)
+    at Game._updateCallback (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:20311:22)
+    at updateCallback (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:87803:20)
+2024-10-5 10:17:57 - log: [PreviewInEditor] 用户名 2
+2024-10-5 10:17:57 - log: [PreviewInEditor] 密码 
+2024-10-5 10:17:57 - log: [PreviewInEditor] Cannot read property 'emit' of undefinedTypeError: Cannot read property 'emit' of undefined
+    at socketClient.onLoginButtonClicked (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/de/file:/D:/cocosProject/footBallGame/game/assets/core/loginClient.ts:44:25)
+    at EventHandler.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38204:19)
+    at Function.emitEvents (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38168:19)
+    at Button._onTouchEnded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71196:35)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:142950:28)
+    at NodeEventProcessor.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41286:33)
+    at Node.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44306:32)
+    at NodeEventProcessor._handleTouchEnd (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41612:16)
+    at NodeEventProcessor._handleEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41567:27)
+    at PointerEventDispatcher.dispatchEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:95398:41)
+2024-10-5 10:17:57 - error: [Window] Cannot read property 'emit' of undefinedTypeError: Cannot read property 'emit' of undefined
+    at <process:scene>
+    at socketClient.onLoginButtonClicked (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/de/file:/D:/cocosProject/footBallGame/game/assets/core/loginClient.ts:44:25)
+    at EventHandler.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38204:19)
+    at Function.emitEvents (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38168:19)
+    at Button._onTouchEnded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71196:35)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:142950:28)
+    at NodeEventProcessor.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41286:33)
+    at Node.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44306:32)
+    at NodeEventProcessor._handleTouchEnd (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41612:16)
+    at NodeEventProcessor._handleEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41567:27)
+    at PointerEventDispatcher.dispatchEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:95398:41)
+2024-10-5 10:17:57 - log: [PreviewInEditor] 用户名 2
+2024-10-5 10:17:57 - error: [Window] Cannot read property 'emit' of undefinedTypeError: Cannot read property 'emit' of undefined
+    at <process:scene>
+    at socketClient.onLoginButtonClicked (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/de/file:/D:/cocosProject/footBallGame/game/assets/core/loginClient.ts:44:25)
+    at EventHandler.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38204:19)
+    at Function.emitEvents (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38168:19)
+    at Button._onTouchEnded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71196:35)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:142950:28)
+    at NodeEventProcessor.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41286:33)
+    at Node.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44306:32)
+    at NodeEventProcessor._handleTouchEnd (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41612:16)
+    at NodeEventProcessor._handleEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41567:27)
+    at PointerEventDispatcher.dispatchEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:95398:41)
+2024-10-5 10:17:57 - log: [PreviewInEditor] 密码 
+2024-10-5 10:17:57 - log: [PreviewInEditor] Cannot read property 'emit' of undefinedTypeError: Cannot read property 'emit' of undefined
+    at socketClient.onLoginButtonClicked (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/de/file:/D:/cocosProject/footBallGame/game/assets/core/loginClient.ts:44:25)
+    at EventHandler.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38204:19)
+    at Function.emitEvents (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:38168:19)
+    at Button._onTouchEnded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:71196:35)
+    at CallbacksInvoker.emit (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:142950:28)
+    at NodeEventProcessor.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41286:33)
+    at Node.dispatchEvent (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44306:32)
+    at NodeEventProcessor._handleTouchEnd (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41612:16)
+    at NodeEventProcessor._handleEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:41567:27)
+    at PointerEventDispatcher.dispatchEventTouch (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:95398:41)
+2024-10-9 17:46:48 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:CocosDashboard_2.1.0ile:D:cocosProjectootBallGamegameassetscontrollersjointControlsFootMotorController.ts: Identifier 'rotationSpeed' has already been declared. (30:22)
+
+  28 |
+  29 |             // 使用 scheduleOnce 在旋转结束后停止马达
+> 30 |                 const rotationSpeed = 90 * Math.PI / 50; // 每秒旋转 90 度，单位是弧度/秒
+     |                       ^
+  31 |                 this.hingeJoint.motorSpeed = rotationSpeed;
+  32 |         }
+  33 |     }
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/06/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FD%3A%2FcocosProject%2FfootBallGame%2Fgame%2Fassets%2Fcontrollers%2FjointControls%2FFootMotorController.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20D%3A%5CCocosDashboard_2.1.0%5Cfile%3A%5CD%3A%5CcocosProject%5CfootBallGame%5Cgame%5Cassets%5Ccontrollers%5CjointControls%5CFootMotorController.ts%3A%20Identifier%20'rotationSpeed'%20has%20already%20been%20declared.%20(30%3A22)%0A%0A%20%2028%20%7C%0A%20%2029%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20%E4%BD%BF%E7%94%A8%20scheduleOnce%20%E5%9C%A8%E6%97%8B%E8%BD%AC%E7%BB%93%E6%9D%9F%E5%90%8E%E5%81%9C%E6%AD%A2%E9%A9%AC%E8%BE%BE%0A%3E%2030%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20rotationSpeed%20%3D%2090%20*%20Math.PI%20%2F%2050%3B%20%2F%2F%20%E6%AF%8F%E7%A7%92%E6%97%8B%E8%BD%AC%2090%20%E5%BA%A6%EF%BC%8C%E5%8D%95%E4%BD%8D%E6%98%AF%E5%BC%A7%E5%BA%A6%2F%E7%A7%92%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2031%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20this.hingeJoint.motorSpeed%20%3D%20rotationSpeed%3B%0A%20%2032%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2033%20%7C%20%20%20%20%20%7D%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:CocosDashboard_2.1.0ile:D:cocosProjectootBallGamegameassetscontrollersjointControlsFootMotorController.ts: Identifier 'rotationSpeed' has already been declared. (30:22)
+
+  28 |
+  29 |             // 使用 scheduleOnce 在旋转结束后停止马达
+> 30 |                 const rotationSpeed = 90 * Math.PI / 50; // 每秒旋转 90 度，单位是弧度/秒
+  33 |     }
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/06/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FD%3A%2FcocosProject%2FfootBallGame%2Fgame%2Fassets%2Fcontrollers%2FjointControls%2FFootMotorController.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20D%3A%5CCocosDashboard_2.1.0%5Cfile%3A%5CD%3A%5CcocosProject%5CfootBallGame%5Cgame%5Cassets%5Ccontrollers%5CjointControls%5CFootMotorController.ts%3A%20Identifier%20'rotationSpeed'%20has%20already%20been%20declared.%20(30%3A22)%0A%0A%20%2028%20%7C%0A%20%2029%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20%E4%BD%BF%E7%94%A8%20scheduleOnce%20%E5%9C%A8%E6%97%8B%E8%BD%AC%E7%BB%93%E6%9D%9F%E5%90%8E%E5%81%9C%E6%AD%A2%E9%A9%AC%E8%BE%BE%0A%3E%2030%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20rotationSpeed%20%3D%2090%20*%20Math.PI%20%2F%2050%3B%20%2F%2F%20%E6%AF%8F%E7%A7%92%E6%97%8B%E8%BD%AC%2090%20%E5%BA%A6%EF%BC%8C%E5%8D%95%E4%BD%8D%E6%98%AF%E5%BC%A7%E5%BA%A6%2F%E7%A7%92%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2031%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20this.hingeJoint.motorSpeed%20%3D%20rotationSpeed%3B%0A%20%2032%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2033%20%7C%20%20%20%20%20%7D%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2024-10-9 17:46:48 - warn: [Scene] Missing class: 551f7GRXg1NJbfB/NHk/wlDError: [Scene] Missing class: 551f7GRXg1NJbfB/NHk/wlD
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-9 17:46:48 - warn: [Scene] Missing class: f2eccazspJNwbh4qd0Ms4hPError: [Scene] Missing class: f2eccazspJNwbh4qd0Ms4hP
+    at Object.classFinder (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:118036:34)
+    at _Deserializer._deserializeTypeTaggedObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49035:30)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48989:29)
+    at _Deserializer._deserializeAndAssignField (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49156:38)
+    at _Deserializer._deserializeArray (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:49017:40)
+    at _Deserializer._deserializeObject (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:48995:29)
+2024-10-9 17:46:48 - error: [Scene] Script "551f7GRXg1NJbfB/NHk/wlD" attached to "New Node" is missing or invalid. Detailed information:
+Node path: "Canvas/game/对象节点/所有角色/New Node"
+Script UUID: "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943"
+Class ID: "551f7GRXg1NJbfB/NHk/wlD"
+Error: [Scene] Script "551f7GRXg1NJbfB/NHk/wlD" attached to "New Node" is missing or invalid. Detailed information:
+Node path: "Canvas/game/对象节点/所有角色/New Node"
+Script UUID: "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943"
+Class ID: "551f7GRXg1NJbfB/NHk/wlD"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-9 17:46:48 - error: [Scene] Script "f2eccazspJNwbh4qd0Ms4hP" attached to "跳跃-滑动" is missing or invalid. Detailed information:
+Node path: "Canvas/操作/跳跃-滑动"
+Script UUID: "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f"
+Class ID: "f2eccazspJNwbh4qd0Ms4hP"
+Error: [Scene] Script "f2eccazspJNwbh4qd0Ms4hP" attached to "跳跃-滑动" is missing or invalid. Detailed information:
+Node path: "Canvas/操作/跳跃-滑动"
+Script UUID: "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f"
+Class ID: "f2eccazspJNwbh4qd0Ms4hP"
+
+    at report (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:25)
+    at reportByWalker (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:7:127)
+2024-10-10 09:51:53 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:CocosDashboard_2.1.0ile:D:cocosProjectootBallGamegameassetsmanagersclientManager.ts: Unexpected reserved word 'private'. (1:0)
+
+> 1 | private socket: any; // 使用 any 类型以避免类型错误
+    | ^
+  2 | export class clientManager {
+  3 |
+  4 |     public static getInstance(): clientManager {
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/b8/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FD%3A%2FcocosProject%2FfootBallGame%2Fgame%2Fassets%2Fmanagers%2FclientManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20D%3A%5CCocosDashboard_2.1.0%5Cfile%3A%5CD%3A%5CcocosProject%5CfootBallGame%5Cgame%5Cassets%5Cmanagers%5CclientManager.ts%3A%20Unexpected%20reserved%20word%20'private'.%20(1%3A0)%0A%0A%3E%201%20%7C%20private%20socket%3A%20any%3B%20%2F%2F%20%E4%BD%BF%E7%94%A8%20any%20%E7%B1%BB%E5%9E%8B%E4%BB%A5%E9%81%BF%E5%85%8D%E7%B1%BB%E5%9E%8B%E9%94%99%E8%AF%AF%0A%20%20%20%20%7C%20%5E%0A%20%202%20%7C%20export%20class%20clientManager%20%7B%0A%20%203%20%7C%0A%20%204%20%7C%20%20%20%20%20public%20static%20getInstance()%3A%20clientManager%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: D:CocosDashboard_2.1.0ile:D:cocosProjectootBallGamegameassetsmanagersclientManager.ts: Unexpected reserved word 'private'. (1:0)
+
+> 1 | private socket: any; // 使用 any 类型以避免类型错误
+  4 |     public static getInstance(): clientManager {
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/b8/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FD%3A%2FcocosProject%2FfootBallGame%2Fgame%2Fassets%2Fmanagers%2FclientManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20D%3A%5CCocosDashboard_2.1.0%5Cfile%3A%5CD%3A%5CcocosProject%5CfootBallGame%5Cgame%5Cassets%5Cmanagers%5CclientManager.ts%3A%20Unexpected%20reserved%20word%20'private'.%20(1%3A0)%0A%0A%3E%201%20%7C%20private%20socket%3A%20any%3B%20%2F%2F%20%E4%BD%BF%E7%94%A8%20any%20%E7%B1%BB%E5%9E%8B%E4%BB%A5%E9%81%BF%E5%85%8D%E7%B1%BB%E5%9E%8B%E9%94%99%E8%AF%AF%0A%20%20%20%20%7C%20%5E%0A%20%202%20%7C%20export%20class%20clientManager%20%7B%0A%20%203%20%7C%0A%20%204%20%7C%20%20%20%20%20public%20static%20getInstance()%3A%20clientManager%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+    at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:440:12
+    at file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///D:/cocosProject/footBallGame/game/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:316:13)
+    at Executor.reload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:203:13)
+    at GlobalEnv.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:1732)
+    at Logger._logHandler (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\startup\log.ccc:1:487)
+    at Logger.record (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)
+    at console.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:5195)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\scene\dist\script\3d\manager\scripts.ccc:1:3379)
+    at Executor._onModuleLoaded (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:359:22)
+    at SystemJS.onload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\src\executor\index.ts:96:18)
+    at triggerOnload (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:270:10)
+    at doExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:538:7)
+    at postOrderExec (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)

@@ -1,22 +1,25 @@
+const sql = require('../mysql/sql');
+
 module.exports = function authModule(io) {
-    
+
+
     io.on('connection', (socket) => {
 
         socket.on('login', (credentials) => {
 
-            console.log('玩家尝试登录:', credentials.username);
-
-            //将username和password进行数据库查询
-            if (credentials.username && credentials.password) {
-
-                socket.emit('loginSuccess', { playerID: socket.id });
-                console.log('玩家登录成功:', socket.id);
-
-            } else {
-
-                socket.emit('loginFailure', { reason: 'Invalid credentials' });
-
-            }
+            console.log('玩家尝试登录:', credentials.username, credentials.password);
+            
+            sql.bijiaomima(credentials.username, credentials.password, socket)
+                .then((isValid) => {
+                    if (isValid) {
+                        console.log('用户验证成功:', socket.id);
+                    } else {
+                        console.log('用户验证失败:', socket.id);
+                    }
+                })
+                .catch((error) => {
+                    console.error('验证过程出错:', error);
+                });
         });
     });
 };

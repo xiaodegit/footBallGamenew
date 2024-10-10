@@ -3,7 +3,6 @@ let rooms = {}; // 房间数据
 module.exports = function roomModule(io) {
     io.on('connection', (socket) => {
         socket.on('joinRoom', (roomID) => {
-
             if (!rooms[roomID]) {
                 rooms[roomID] = [];
             }
@@ -14,7 +13,6 @@ module.exports = function roomModule(io) {
         });
 
         socket.on('leaveRoom', (roomID) => {
-            
             if (rooms[roomID]) {
                 rooms[roomID] = rooms[roomID].filter(id => id !== socket.id);
                 socket.leave(roomID);

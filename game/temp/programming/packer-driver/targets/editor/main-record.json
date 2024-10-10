@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5958861.985599995,
+      "mTimestamp": 485415308.6394,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -700,7 +700,7 @@
           }
         },
         {
-          "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts",
+          "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -709,91 +709,133 @@
             },
             "end": {
               "line": 5,
-              "column": 589
+              "column": 582
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/joinRoomController.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 598
+            },
+            "end": {
+              "line": 5,
+              "column": 695
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 711
+            },
+            "end": {
+              "line": 5,
+              "column": 806
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 605
+              "column": 822
             },
             "end": {
               "line": 5,
-              "column": 714
+              "column": 931
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 730
+              "column": 947
             },
             "end": {
               "line": 5,
-              "column": 840
+              "column": 1057
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/core/game.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 856
+              "column": 1073
             },
             "end": {
               "line": 5,
-              "column": 919
+              "column": 1136
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 935
+              "column": 1152
             },
             "end": {
               "line": 5,
-              "column": 1005
+              "column": 1222
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1021
+              "column": 1238
             },
             "end": {
               "line": 5,
-              "column": 1099
+              "column": 1316
             }
           }
         },
         {
           "value": "file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1115
+              "column": 1332
             },
             "end": {
               "line": 5,
-              "column": 1191
+              "column": 1408
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1424
+            },
+            "end": {
+              "line": 5,
+              "column": 1500
             }
           }
         }
@@ -825,6 +867,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/joinRoomController.ts"
           },
           "messages": []
         },
@@ -874,6 +930,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts"
           },
           "messages": []
         }
@@ -933,7 +996,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1728039812518.1038,
+        "mtime": 1728465862673.48,
         "uuid": "264245bd-e409-4e31-980e-4e9a329f804f"
       },
       "chunkId": "2061fd2dad7ae9dbc6c49c39743e9b236cd9a98f",
@@ -1139,7 +1202,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts": {
       "mTimestamp": {
-        "mtime": 1728039812520.104,
+        "mtime": 1728467705642.5117,
         "uuid": "551f7191-5e0d-4d25-b7c1-fcd1e4ff0943"
       },
       "chunkId": "1b6e9e4b0bcbd74d96bcc055a8f11a03c9c37cc5",
@@ -1243,7 +1306,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts": {
       "mTimestamp": {
-        "mtime": 1728039812522.1035,
+        "mtime": 1728467184783.4814,
         "uuid": "f2ecc6b3-b292-4dc1-b878-a9dd0cb3884f"
       },
       "chunkId": "1a6427a88f650026605795485b94ba685d92ffe0",
@@ -1348,7 +1411,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts": {
       "mTimestamp": {
-        "mtime": 1728039812523.104,
+        "mtime": 1728466137025.386,
         "uuid": "4ed92c0b-1bfa-41af-a269-696106c2bfb6"
       },
       "chunkId": "7e87dfcf1581d7201f5be021e92a68fdcaf49815",
@@ -1368,11 +1431,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 91
+              "column": 96
             },
             "end": {
               "line": 1,
-              "column": 95
+              "column": 100
             }
           }
         },
@@ -1432,11 +1495,15 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/core/game.ts": {
       "mTimestamp": {
-        "mtime": 1728042318705.81,
+        "mtime": 1728525858790.7295,
         "uuid": "c42f631d-a1b0-417c-875d-113ade82688b"
       },
       "chunkId": "21d810c14cc6593111d78c29c59534da2a872cfe",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1455,6 +1522,34 @@
               "column": 42
             }
           }
+        },
+        {
+          "value": "../managers/clientManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../managers/PlayerManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 30
+            },
+            "end": {
+              "line": 4,
+              "column": 57
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1462,7 +1557,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1477,6 +1572,27 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts"
           },
           "messages": []
         }
@@ -1620,11 +1736,15 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts": {
       "mTimestamp": {
-        "mtime": 1728046379108.2292,
+        "mtime": 1728525779545.2444,
         "uuid": "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
       },
       "chunkId": "de974a62fece4597050d7a1ad02a8b505f838ad9",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1636,11 +1756,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 55
+              "column": 65
             },
             "end": {
               "line": 1,
-              "column": 59
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../managers/clientManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 57
             }
           }
         }
@@ -1650,7 +1784,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1665,6 +1799,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts"
           },
           "messages": []
         }
@@ -6302,6 +6450,403 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/core/registerClient.ts": {
+      "mTimestamp": {
+        "mtime": 1728209400221.6807,
+        "uuid": "8f16064e-2c49-43cb-a046-0ba4419b84f2"
+      },
+      "chunkId": "62d4f0f81809fcec54700fb366ba6e95d6ab2eb7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/managers/button.ts": {
+      "mTimestamp": {
+        "mtime": 1728209416733.7092,
+        "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+      },
+      "chunkId": "186c9b175093e2d517379f0e1b63bb54e88a77cb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/managers/buttonController.ts": {
+      "mTimestamp": {
+        "mtime": 1728209416733.7092,
+        "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+      },
+      "chunkId": "e9f3a542440738594548ccd2f152917388169929",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/controllers/buttonController.ts": {
+      "mTimestamp": {
+        "mtime": 1728209416733.7092,
+        "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+      },
+      "chunkId": "72421831c298cd99c3585eb55f9027eecd9f0316",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/controllers/buttonsController.ts": {
+      "mTimestamp": {
+        "mtime": 1728209416733.7092,
+        "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+      },
+      "chunkId": "4cd9aa1df677a9500dc2b9d6595eb45ccdd438b8",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts": {
+      "mTimestamp": {
+        "mtime": 1728216666079.5432,
+        "uuid": "54e9cf45-21ee-44fc-8987-d1a9084751dc"
+      },
+      "chunkId": "221f746abf3ce784841c8183aa9d311dd9517017",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/joinRoomController.ts": {
+      "mTimestamp": {
+        "mtime": 1728525436376.9402,
+        "uuid": "aeb1ceed-b543-47ad-90c3-c4629e9e8f1e"
+      },
+      "chunkId": "6867d6b9b3340437727720bcee74fa7f99b15eec",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts": {
+      "mTimestamp": {
+        "mtime": 1728525234802.389,
+        "uuid": "d526450d-e0f3-4a20-a3bc-07033e3809be"
+      },
+      "chunkId": "595cf633843fbec3dcb09a3b269d1c687ffb4274",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

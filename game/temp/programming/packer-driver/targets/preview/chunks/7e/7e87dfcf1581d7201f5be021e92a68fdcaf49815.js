@@ -34,7 +34,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "4ed92wLG/pBr6JpaWEGwr+2", "onTouchStick", undefined);
 
-      __checkObsolete__(['_decorator', 'Camera', 'Component', 'EventTouch', 'Layers', 'Node', 'UITransform', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Camera', 'Component', 'EventTouch', 'Layers', 'log', 'Node', 'UITransform', 'Vec3']);
 
       ({
         ccclass,
@@ -92,7 +92,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onTouchEnd(event) {
-          // 隐藏操纵杆背景节点
+          this.node.children[0].children[0].setPosition(new Vec3(0, 0, 0)); // 隐藏操纵杆背景节点
+
           this.node.children[0].active = false;
           this.isMoveBoolean = false;
           this.isSingleTouch = false;
@@ -140,12 +141,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         updatePlayerMovement() {
           if (!this.currentPosition) return;
-
-          if (this.currentPosition.x < -50) {
-            this.playerController.addLeftMovement();
-          } else if (this.currentPosition.x > 50) {
-            this.playerController.addRightMovement();
-          }
+          var moveSpeed = this.currentPosition.x / 20;
+          this.playerController.addMovement(moveSpeed);
         } // 单点触摸
 
 

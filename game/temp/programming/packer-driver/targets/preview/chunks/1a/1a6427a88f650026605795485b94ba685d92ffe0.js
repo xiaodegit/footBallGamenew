@@ -62,7 +62,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.node.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
           this.node.on(Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
           this.node.on(Node.EventType.TOUCH_END, this.onTouchEnd, this);
-          this.node.on(Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
           this.playerController = this.player.getComponent(_crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
             error: Error()
           }), PlayerController) : PlayerController);
@@ -75,6 +74,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           var touchLocation = event.getLocation(); // 获取触摸的屏幕坐标
 
           this.touchLocationClone = touchLocation.clone();
+          this.footMotorController.rotateHeadTo90Degrees();
         }
 
         onTouchMove(event) {
@@ -89,11 +89,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         }
 
         onTouchEnd(event) {
-          this.footMotorController.rotateHeadTo90Degrees();
+          this.footMotorController.stopMotor();
           this.boolean = false;
         }
-
-        onTouchCancel(event) {}
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "player", [_dec2], {
         configurable: true,

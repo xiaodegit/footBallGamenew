@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, EditBox, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, socketClient;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, director, EditBox, clientManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, socketClient;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -9,21 +9,30 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfclientManager(extras) {
+    _reporterNs.report("clientManager", "../managers/clientManager", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      director = _cc.director;
       EditBox = _cc.EditBox;
+    }, function (_unresolved_2) {
+      clientManager = _unresolved_2.clientManager;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "243d1MjEkxLwbEvDsqVtvju", "loginClient", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Component', 'EditBox']);
+      __checkObsolete__(['_decorator', 'Button', 'Component', 'director', 'EditBox']);
 
       ({
         ccclass,
@@ -31,34 +40,37 @@ System.register(["cc"], function (_export, _context) {
       } = _decorator);
 
       _export("socketClient", socketClient = (_dec = ccclass('socketClient'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec(_class = (_class2 = class socketClient extends Component {
+        onLoad() {
+          this.clientmanager = (_crd && clientManager === void 0 ? (_reportPossibleCrUseOfclientManager({
+            error: Error()
+          }), clientManager) : clientManager).getInstance();
+        }
+
         constructor() {
-          super(...arguments);
+          super();
 
           _initializerDefineProperty(this, "usernameInput", _descriptor, this);
 
           _initializerDefineProperty(this, "passwordInput", _descriptor2, this);
 
-          this.socket = void 0;
+          this.clientmanager = void 0;
         }
 
-        // 使用 any 类型以避免类型错误
         start() {
-          // 使用全局变量 io 进行连接
-          this.socket = window.io('http://localhost:3000'); // 监听连接成功事件
+          console.log(this.clientmanager); // 使用全局变量 io 进行连接
 
-          this.socket.on('connect', () => {
-            console.log('连接到服务器成功'); // 可以在这里发送加入游戏的事件或其他初始化操作
+          this.clientmanager.Socket = window.io('http://localhost:3000'); // 监听连接成功事件
 
-            this.socket.emit('joinGame', {
-              playerName: 'Player1'
-            });
+          this.clientmanager.Socket.on('connect', () => {
+            console.log('连接到服务器成功');
           }); // 监听登录成功事件
 
-          this.socket.on('loginSuccess', data => {
+          this.clientmanager.Socket.on('loginSuccess', data => {
             console.log('登录成功:', data);
+            director.loadScene('menu');
           }); // 监听登录失败事件
 
-          this.socket.on('loginFailure', data => {
+          this.clientmanager.Socket.on('loginFailure', data => {
             console.log('登录失败:', data);
           });
         }
@@ -70,7 +82,7 @@ System.register(["cc"], function (_export, _context) {
             console.log('用户名', username);
             console.log('密码', password); // 通过 Socket.io 发送登录请求
 
-            this.socket.emit('login', {
+            this.clientmanager.Socket.emit('login', {
               username,
               password
             });

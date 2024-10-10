@@ -1,4 +1,4 @@
-import { _decorator, Camera, Component, EventTouch, Layers, Node, UITransform, Vec3 } from 'cc';
+import { _decorator, Camera, Component, EventTouch, Layers, log, Node, UITransform, Vec3 } from 'cc';
 import { PlayerController } from '../../PlayerController';
 const { ccclass, property } = _decorator;
 
@@ -25,8 +25,8 @@ export class onTouchStick extends Component {
     }
 
     protected update(dt: number): void {
-        if(this.isMoveBoolean){
-            this.updatePlayerMovement()
+        if (this.isMoveBoolean) {
+            this.updatePlayerMovement();
         }
     }
 
@@ -51,7 +51,7 @@ export class onTouchStick extends Component {
     }
 
     onTouchEnd(event: EventTouch) {
-
+        this.node.children[0].children[0].setPosition(new Vec3(0,0,0))
         // 隐藏操纵杆背景节点
         this.node.children[0].active = false;
         this.isMoveBoolean = false;
@@ -108,14 +108,10 @@ export class onTouchStick extends Component {
     }
 
     updatePlayerMovement() {
-        if(!this.currentPosition)return;
-        if (this.currentPosition.x < -50) {
+        if (!this.currentPosition) return;
+        let moveSpeed = this.currentPosition.x / 20;
+        this.playerController.addMovement(moveSpeed);
 
-            this.playerController.addLeftMovement();
-        } else if (this.currentPosition.x > 50) {
-            
-            this.playerController.addRightMovement();
-        }
     }
 
     // 单点触摸
