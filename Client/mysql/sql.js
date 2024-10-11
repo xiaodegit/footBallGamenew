@@ -31,9 +31,6 @@ class DataBase {
     // 验证用户密码（登录）
     async bijiaomima(userName, password, socket) {
         try {
-            console.log('传递的用户名:', userName);
-            console.log('传递的密码:', password);
-
             if (!userName || !password) {
                 console.error('请输入用户名或密码');
                 socket.emit('loginFailure', { reason: '请输入用户名或密码' });
@@ -42,7 +39,8 @@ class DataBase {
 
             const query = 'SELECT pass_word, name FROM user_info WHERE user_name = ?';
             const [rows] = await this.pool.execute(query, [userName]);
-
+            console.log('rows =========',rows.length);
+            
             if (rows.length === 0) {
                 console.log('用户不存在，开始注册');
                 // 假设name与userName相同，或者你有其他逻辑获取name
@@ -57,12 +55,12 @@ class DataBase {
                     return false;
                 }
             }
-            await this.mimayanzheng();
-
+            await this.mimayanzheng(rows,password,socket);
+            return true;
         } catch (error) {
             console.error('数据库查询出错:', error);
             socket.emit('loginFailure', { reason: '数据库查询出错' });
-            return false;
+            throw error;
         }
     }
 
@@ -88,7 +86,8 @@ class DataBase {
             return false;
         }
     }
-    async mimayanzheng() {
+    
+    async mimayanzheng(rows,password,socket) {
 
         //rows[0].pass_word数据库中的密码
         const storedHashedPassword = rows[0].pass_word;
@@ -111,6 +110,7 @@ class DataBase {
             return false;
         }
     }
+
 }
 
 module.exports = new DataBase();

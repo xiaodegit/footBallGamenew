@@ -2,18 +2,15 @@
 const sql = require('./mysql/sql');
 const createServer = require('./module/server');
 const authModule = require('./module/auth');
-const roomModule = require('./module/room');
+const roomModule = require('./rooms/room');
 
 // 创建并启动服务器
 const { io, httpServer } = createServer();
-
 
 // 注册所有模块的逻辑
 sql.initialize();
 authModule(io);
 roomModule(io);
-// 注册数据库的逻辑
-
 
 // 启动服务器
 httpServer.listen(process.env.PORT || 3000, () => {

@@ -62,10 +62,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this.node.on(Node.EventType.TOUCH_START, this.onTouchStart, this);
           this.node.on(Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
           this.node.on(Node.EventType.TOUCH_END, this.onTouchEnd, this);
-          this.playerController = this.player.getComponent(_crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
+          this.playerController != this.player.getComponent(_crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
             error: Error()
           }), PlayerController) : PlayerController);
-          this.footMotorController = this.footMotorNode.getComponent(_crd && FootMotorController === void 0 ? (_reportPossibleCrUseOfFootMotorController({
+          this.footMotorController != this.footMotorNode.getComponent(_crd && FootMotorController === void 0 ? (_reportPossibleCrUseOfFootMotorController({
             error: Error()
           }), FootMotorController) : FootMotorController);
         }

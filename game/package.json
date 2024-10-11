@@ -4,5 +4,9 @@
   },
   "devDependencies": {
     "@types/socket.io-client": "^1.4.36"
-  }
+  },
+  "creator": {
+    "version": "3.8.3"
+  },
+  "uuid": "d59c2899-c691-4e76-96b4-940e0495a46e"
 }

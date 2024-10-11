@@ -134,6 +134,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
 
         stopMovement() {
+          if (!this.rb) return;
           this.rb.linearVelocity = new Vec2(0, 0);
           this.rb.angularVelocity = 0;
           this.rb.linearDamping = 10;

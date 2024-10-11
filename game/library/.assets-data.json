@@ -185,7 +185,9 @@
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef"
+      ]
     },
     "versionCode": 1
   },
@@ -210,12 +212,32 @@
     "versionCode": 1
   },
   "aeb1ceed-b543-47ad-90c3-c4629e9e8f1e": {
-    "url": "db://assets/controllers/roomControls/joinRoomController.ts",
+    "url": "db://assets/controllers/roomControls/RoomController.ts",
     "value": {},
     "versionCode": 1
   },
   "d526450d-e0f3-4a20-a3bc-07033e3809be": {
     "url": "db://assets/managers/clientManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3b548af0-6c25-4022-ae63-5b97eec20126": {
+    "url": "db://assets/controllers/roomControls/leaveRoom.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c14e5521-7e41-4fc6-be6b-de233bbc9f54": {
+    "url": "db://assets/controllers/roomControls/leaveRoomController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef": {
+    "url": "db://assets/controllers/roomControls/roomController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "73aad61b-2bcc-472e-a9c0-df2c615b9a27": {
+    "url": "db://assets/controllers/gameStateControls",
     "value": {},
     "versionCode": 1
   }

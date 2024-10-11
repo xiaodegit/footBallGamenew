@@ -19,7 +19,6 @@ System.register(["cc"], function (_export, _context) {
           this.socket = void 0;
         }
 
-        // 使用 any 类型以避免类型错误
         static getInstance() {
           if (!clientManager.instance) {
             clientManager.instance = new clientManager();

@@ -62,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           this.node.setSiblingIndex(this.node.parent.children.length - 1);
           this.node.layer = Layers.Enum.UI_2D;
-          this.playerController = this.player.getComponent(_crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
+          this.playerController != this.player.getComponent(_crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
             error: Error()
           }), PlayerController) : PlayerController);
         }

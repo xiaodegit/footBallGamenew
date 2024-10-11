@@ -7,7 +7,7 @@
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts": "./chunks/af/af71088bde485f36056f7c3517061b68e63b10e3.js",
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts": "./chunks/1b/1b6e9e4b0bcbd74d96bcc055a8f11a03c9c37cc5.js",
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts": "./chunks/22/221f746abf3ce784841c8183aa9d311dd9517017.js",
-    "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/joinRoomController.ts": "./chunks/68/6867d6b9b3340437727720bcee74fa7f99b15eec.js",
+    "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts": "./chunks/6a/6ac93dca8b8d4f5ee386c19e07099888235a20f9.js",
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts": "./chunks/49/4961e0d49949402cd0b1df813518511aa2af4063.js",
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts": "./chunks/1a/1a6427a88f650026605795485b94ba685d92ffe0.js",
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts": "./chunks/7e/7e87dfcf1581d7201f5be021e92a68fdcaf49815.js",
@@ -49,7 +49,7 @@
       "__unresolved_2": "./chunks/af/af71088bde485f36056f7c3517061b68e63b10e3.js",
       "__unresolved_3": "./chunks/1b/1b6e9e4b0bcbd74d96bcc055a8f11a03c9c37cc5.js",
       "__unresolved_4": "./chunks/22/221f746abf3ce784841c8183aa9d311dd9517017.js",
-      "__unresolved_5": "./chunks/68/6867d6b9b3340437727720bcee74fa7f99b15eec.js",
+      "__unresolved_5": "./chunks/6a/6ac93dca8b8d4f5ee386c19e07099888235a20f9.js",
       "__unresolved_6": "./chunks/49/4961e0d49949402cd0b1df813518511aa2af4063.js",
       "__unresolved_7": "./chunks/1a/1a6427a88f650026605795485b94ba685d92ffe0.js",
       "__unresolved_8": "./chunks/7e/7e87dfcf1581d7201f5be021e92a68fdcaf49815.js",
@@ -90,8 +90,9 @@
     "./chunks/49/4961e0d49949402cd0b1df813518511aa2af4063.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/68/6867d6b9b3340437727720bcee74fa7f99b15eec.js": {
+    "./chunks/6a/6ac93dca8b8d4f5ee386c19e07099888235a20f9.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/59/595cf633843fbec3dcb09a3b269d1c687ffb4274.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/22/221f746abf3ce784841c8183aa9d311dd9517017.js": {

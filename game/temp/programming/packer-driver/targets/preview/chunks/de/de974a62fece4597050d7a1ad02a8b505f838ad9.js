@@ -40,14 +40,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       } = _decorator);
 
       _export("socketClient", socketClient = (_dec = ccclass('socketClient'), _dec2 = property(EditBox), _dec3 = property(EditBox), _dec(_class = (_class2 = class socketClient extends Component {
-        onLoad() {
-          this.clientmanager = (_crd && clientManager === void 0 ? (_reportPossibleCrUseOfclientManager({
-            error: Error()
-          }), clientManager) : clientManager).getInstance();
-        }
-
         constructor() {
-          super();
+          super(...arguments);
 
           _initializerDefineProperty(this, "usernameInput", _descriptor, this);
 
@@ -57,20 +51,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         start() {
-          console.log(this.clientmanager); // 使用全局变量 io 进行连接
+          this.clientmanager = (_crd && clientManager === void 0 ? (_reportPossibleCrUseOfclientManager({
+            error: Error()
+          }), clientManager) : clientManager).getInstance(); // 使用全局变量 io 进行连接
 
-          this.clientmanager.Socket = window.io('http://localhost:3000'); // 监听连接成功事件
+          this.clientmanager.Socket = window.io('http://localhost:3000');
+          var socket = this.clientmanager.Socket; // 监听连接成功事件
 
-          this.clientmanager.Socket.on('connect', () => {
+          socket.on('connect', () => {
             console.log('连接到服务器成功');
           }); // 监听登录成功事件
 
-          this.clientmanager.Socket.on('loginSuccess', data => {
+          socket.on('loginSuccess', data => {
             console.log('登录成功:', data);
             director.loadScene('menu');
           }); // 监听登录失败事件
 
-          this.clientmanager.Socket.on('loginFailure', data => {
+          socket.on('loginFailure', data => {
             console.log('登录失败:', data);
           });
         }

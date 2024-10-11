@@ -29,7 +29,7 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
       _export("PlayerManager", PlayerManager = class PlayerManager {
         constructor() {
           this.jumpBoolean = void 0;
-          this.Floor = null;
+          this.Floor = void 0;
           this.over = void 0;
           this.force = void 0;
           this.playerController = void 0;
