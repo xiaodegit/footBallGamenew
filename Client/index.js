@@ -1,4 +1,5 @@
 // 导入自定义模块
+require('dotenv').config();
 const sql = require('./mysql/sql');
 const createServer = require('./module/server');
 const authModule = require('./module/auth');
@@ -14,5 +15,5 @@ roomModule(io);
 
 // 启动服务器
 httpServer.listen(process.env.PORT || 3000, () => {
-    console.log('开始启动服务器 http://localhost:3000');
+    console.log('服务器启动中: http://localhost:' + (process.env.PORT || 3000));
 });

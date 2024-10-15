@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7463.957399999723,
+      "mTimestamp": 7313.595799997449,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9763.133600000292,
+      "mTimestamp": 74657626.11739999,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1079,7 +1079,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1728623326051,
+      "mTimestamp": 1728822862958,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1736,7 +1736,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts": {
       "mTimestamp": {
-        "mtime": 1728526964777.1743,
+        "mtime": 1728894876842.458,
         "uuid": "243d1323-124c-4bc1-b12f-0eca95b6f8ee"
       },
       "chunkId": "de974a62fece4597050d7a1ad02a8b505f838ad9",
@@ -7063,7 +7063,7 @@
     },
     "file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts": {
       "mTimestamp": {
-        "mtime": 1728611061372.2168,
+        "mtime": 1728897520207.9683,
         "uuid": "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef"
       },
       "chunkId": "6ac93dca8b8d4f5ee386c19e07099888235a20f9",

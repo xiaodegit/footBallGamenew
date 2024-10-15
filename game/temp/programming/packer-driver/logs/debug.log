@@ -1,27 +1,27 @@
-13:08:53 debug: 2024/10/11下午1:08:53
-13:08:53 debug: Project: D:\cocosProject\footBallGame\game
-13:08:53 debug: Targets: editor,preview
-13:08:53 debug: Incremental file seems great.
-13:08:53 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
-13:08:53 debug: Initializing target [Editor]
-13:08:53 debug: Loading cache
-13:08:53 debug: Loading cache costs 2.523199999704957ms.
-13:08:53 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
-13:08:53 debug: Our import map(foo:/bar): {
+20:34:30 debug: 2024/10/13下午8:34:30
+20:34:30 debug: Project: D:\cocosProject\footBallGame\game
+20:34:30 debug: Targets: editor,preview
+20:34:30 debug: Incremental file seems great.
+20:34:30 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+20:34:30 debug: Initializing target [Editor]
+20:34:30 debug: Loading cache
+20:34:30 debug: Loading cache costs 18.144400000572205ms.
+20:34:30 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+20:34:30 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-13:08:53 debug: Initializing target [Preview]
-13:08:53 debug: Loading cache
-13:08:53 debug: Loading cache costs 2.2403999995440245ms.
-13:08:53 debug: Our import map(foo:/bar): {
+20:34:30 debug: Initializing target [Preview]
+20:34:30 debug: Loading cache
+20:34:30 debug: Loading cache costs 7.019400000572205ms.
+20:34:30 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-13:08:53 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,websocket-server,webview
-13:08:53 debug: Reset databases. Enumerated domains: [
+20:34:30 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,websocket-server,webview
+20:34:30 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets"
@@ -31,274 +31,540 @@
     "physical": "D:\\cocosProject\\footBallGame\\game\\assets"
   }
 ]
-13:08:53 debug: Our import map(foo:/bar): {
+20:34:30 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///D:/cocosProject/footBallGame/game/assets/"
   }
 }
-13:08:53 debug: Our import map(foo:/bar): {
+20:34:30 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///D:/cocosProject/footBallGame/game/assets/"
   }
 }
-13:08:53 debug: Pulling asset-db.
-13:08:53 debug: Fetch asset-db cost: 7.144500000402331ms.
-13:08:53 debug: Build iteration starts.
+20:34:30 debug: Pulling asset-db.
+20:34:30 debug: Fetch asset-db cost: 8.787500008940697ms.
+20:34:30 debug: Build iteration starts.
 Number of accumulated asset changes: 14
 Feature changed: false
-13:08:53 debug: Target(editor) build started.
-13:08:53 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/x/cc
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-13:08:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 09:58:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/x/prerequisite-imports
-13:08:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Oct 04 2024 19:14:02 GMT+0800 (中国标准时间), Current mtime: Fri Oct 11 2024 13:08:46 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/code-quality/cr.mjs
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
-13:08:53 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Thu Oct 10 2024 21:04:42 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Fri Oct 11 2024 09:44:21 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
-13:08:53 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve ../../jointControls/FootMotorController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Target(editor) ends with cost 232.98669999837875ms.
-13:08:53 debug: Target(preview) build started.
-13:08:53 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/x/cc
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-13:08:53 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-13:08:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Jan 07 1970 09:58:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/x/prerequisite-imports
-13:08:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Oct 04 2024 19:14:02 GMT+0800 (中国标准时间), Current mtime: Fri Oct 11 2024 13:08:46 GMT+0800 (中国标准时间)
-13:08:53 debug: Inspect cce:/internal/code-quality/cr.mjs
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
-13:08:53 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Thu Oct 10 2024 21:04:42 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Fri Oct 11 2024 09:44:21 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
-13:08:53 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve ../../jointControls/FootMotorController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
-13:08:53 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/code-quality/cr.mjs.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
-13:08:53 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:53 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:53 debug: Target(preview) ends with cost 184.0725999996066ms.
-13:08:54 debug: Pulling asset-db.
-13:08:55 debug: Fetch asset-db cost: 1298.9198000002652ms.
-13:08:55 debug: Build iteration starts.
+20:34:30 debug: Target(editor) build started.
+20:34:30 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/x/cc
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+20:34:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/x/prerequisite-imports
+20:34:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun Oct 13 2024 08:20:59 GMT+0800 (中国标准时间), Current mtime: Sun Oct 13 2024 20:34:22 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve ../../jointControls/FootMotorController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Target(editor) ends with cost 177.34620000422ms.
+20:34:30 debug: Target(preview) build started.
+20:34:30 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/x/cc
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+20:34:30 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+20:34:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/x/prerequisite-imports
+20:34:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Sun Oct 13 2024 08:20:59 GMT+0800 (中国标准时间), Current mtime: Sun Oct 13 2024 20:34:22 GMT+0800 (中国标准时间)
+20:34:30 debug: Inspect cce:/internal/code-quality/cr.mjs
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve ../../jointControls/FootMotorController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../../PlayerController from file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/core/game.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+20:34:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/code-quality/cr.mjs.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as cce:/internal/x/cc.
+20:34:30 debug: Resolve ../managers/PlayerManager from file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:30 debug: Target(preview) ends with cost 134.33969999849796ms.
+20:34:31 debug: Pulling asset-db.
+20:34:31 debug: Fetch asset-db cost: 690.6712000072002ms.
+20:34:31 debug: Build iteration starts.
 Number of accumulated asset changes: 15
 Feature changed: false
-13:08:55 debug: Target(editor) build started.
-13:08:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
-13:08:55 debug: Inspect cce:/internal/x/prerequisite-imports
-13:08:55 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:55 debug: Target(editor) ends with cost 99.24250000156462ms.
-13:08:55 debug: Target(preview) build started.
-13:08:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间)
-13:08:55 debug: Inspect cce:/internal/x/prerequisite-imports
-13:08:55 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
-13:08:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
-13:08:56 debug: Target(preview) ends with cost 901.9033000003546ms.
+20:34:31 debug: Target(editor) build started.
+20:34:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+20:34:31 debug: Inspect cce:/internal/x/prerequisite-imports
+20:34:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:31 debug: Target(editor) ends with cost 70.78319999575615ms.
+20:34:31 debug: Target(preview) build started.
+20:34:31 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+20:34:31 debug: Inspect cce:/internal/x/prerequisite-imports
+20:34:31 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+20:34:31 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+20:34:32 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+20:34:32 debug: Target(preview) ends with cost 417.77220000326633ms.
+16:29:54 debug: Dispatch build request for time accumulated 1 asset changes.
+16:29:55 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+16:29:55 debug: Target(editor) build started.
+16:29:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 03:55:32 GMT+0800 (中国标准时间)
+16:29:55 debug: Inspect cce:/internal/x/prerequisite-imports
+16:29:55 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+16:29:55 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Fri Oct 11 2024 09:44:21 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 16:28:48 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+16:29:55 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+16:29:55 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+16:29:55 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:55 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:55 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:55 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+16:29:55 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+16:29:56 debug: Target(editor) ends with cost 735.3425000011921ms.
+16:29:56 debug: Target(preview) build started.
+16:29:56 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 03:55:33 GMT+0800 (中国标准时间)
+16:29:56 debug: Inspect cce:/internal/x/prerequisite-imports
+16:29:56 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+16:29:56 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Fri Oct 11 2024 09:44:21 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 16:28:48 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+16:29:56 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+16:29:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+16:29:56 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:56 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:56 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+16:29:56 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+16:29:56 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+16:29:56 debug: Target(preview) ends with cost 142.64449998736382ms.
+17:16:30 debug: Dispatch build request for time accumulated 1 asset changes.
+17:16:30 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:16:30 debug: Target(editor) build started.
+17:16:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 03:55:32 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:42:07 GMT+0800 (中国标准时间)
+17:16:30 debug: Inspect cce:/internal/x/prerequisite-imports
+17:16:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:16:30 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Thu Oct 10 2024 10:22:44 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Mon Oct 14 2024 16:34:36 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+17:16:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+17:16:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:16:30 debug: Target(editor) ends with cost 140.7979000210762ms.
+17:16:30 debug: Target(preview) build started.
+17:16:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 03:55:33 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:42:07 GMT+0800 (中国标准时间)
+17:16:30 debug: Inspect cce:/internal/x/prerequisite-imports
+17:16:30 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:16:30 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts. Last mtime: Thu Oct 10 2024 10:22:44 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee, Current mtime: Mon Oct 14 2024 16:34:36 GMT+0800 (中国标准时间)@243d1323-124c-4bc1-b12f-0eca95b6f8ee
+17:16:30 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts
+17:16:30 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/code-quality/cr.mjs.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as cce:/internal/x/cc.
+17:16:30 debug: Resolve ../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:16:30 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:16:30 debug: Target(preview) ends with cost 152.5286000072956ms.
+17:18:18 debug: Dispatch build request for time accumulated 1 asset changes.
+17:18:18 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:18:18 debug: Target(editor) build started.
+17:18:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:42:07 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:43:55 GMT+0800 (中国标准时间)
+17:18:18 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:18 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:18 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 16:28:48 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:18 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:18 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:18 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:18 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:18 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:18 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:18 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:18 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:19 debug: Target(editor) ends with cost 795.9079999923706ms.
+17:18:19 debug: Target(preview) build started.
+17:18:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:42:07 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:43:56 GMT+0800 (中国标准时间)
+17:18:19 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:19 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:19 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 16:28:48 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:18 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:19 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:19 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:19 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:19 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:19 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:19 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:19 debug: Target(preview) ends with cost 162.35560002923012ms.
+17:18:27 debug: Dispatch build request for time accumulated 1 asset changes.
+17:18:27 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:18:27 debug: Target(editor) build started.
+17:18:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:43:55 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:44:04 GMT+0800 (中国标准时间)
+17:18:27 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:27 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:27 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 17:18:18 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:27 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:27 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:27 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:27 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:27 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:27 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:27 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:27 debug: Target(editor) ends with cost 127.47150000929832ms.
+17:18:27 debug: Target(preview) build started.
+17:18:27 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:43:56 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:44:05 GMT+0800 (中国标准时间)
+17:18:27 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:27 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:27 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:27 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 17:18:18 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:27 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:27 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:28 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:28 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:28 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:28 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:28 debug: Target(preview) ends with cost 137.2499000132084ms.
+17:18:40 debug: Dispatch build request for time accumulated 1 asset changes.
+17:18:40 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+17:18:40 debug: Target(editor) build started.
+17:18:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:44:04 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:44:17 GMT+0800 (中国标准时间)
+17:18:40 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:40 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:40 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 17:18:27 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:40 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:40 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:40 debug: Target(editor) ends with cost 143.93529999256134ms.
+17:18:40 debug: Target(preview) build started.
+17:18:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 04:44:05 GMT+0800 (中国标准时间), Current mtime: Fri Jan 02 1970 04:44:17 GMT+0800 (中国标准时间)
+17:18:40 debug: Inspect cce:/internal/x/prerequisite-imports
+17:18:40 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/PlayerController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/RockerController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/jointControls/FootMotorController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/loginButtonsController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts.
+17:18:40 debug: Detected change: file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts. Last mtime: Mon Oct 14 2024 17:18:27 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef, Current mtime: Mon Oct 14 2024 17:18:40 GMT+0800 (中国标准时间)@25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef
+17:18:40 debug: Inspect file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts
+17:18:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/code-quality/cr.mjs.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve cc from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as cce:/internal/x/cc.
+17:18:40 debug: Resolve ../../managers/clientManager from file:///D:/cocosProject/footBallGame/game/assets/controllers/roomControls/roomController.ts as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/StickController.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchJump.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/controllers/stickControls/onTouchController/onTouchStick.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/game.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/game.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/core/loginClient.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/handlers/playerCollition.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/PlayerManager.ts.
+17:18:40 debug: Resolve file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/cocosProject/footBallGame/game/assets/managers/clientManager.ts.
+17:18:40 debug: Target(preview) ends with cost 130.6211999952793ms.

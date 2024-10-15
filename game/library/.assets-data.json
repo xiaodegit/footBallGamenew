@@ -183,10 +183,12 @@
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "34ff8023-16a1-451c-b169-b578a8bf4954"
       ],
       "dependScripts": [
-        "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef"
+        "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
       ]
     },
     "versionCode": 1
@@ -239,6 +241,17 @@
   "73aad61b-2bcc-472e-a9c0-df2c615b9a27": {
     "url": "db://assets/controllers/gameStateControls",
     "value": {},
+    "versionCode": 1
+  },
+  "34ff8023-16a1-451c-b169-b578a8bf4954": {
+    "url": "db://assets/src/prefabs/playerImage.prefab",
+    "value": {
+      "depends": [
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ],
+      "dependScripts": []
+    },
     "versionCode": 1
   }
 }

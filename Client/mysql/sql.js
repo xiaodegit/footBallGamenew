@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt'); // 引入 bcrypt
 require('dotenv').config(); // 加载环境变量
 const { v1: uuidv1 } = require('uuid'); // 使用解构赋值简化UUID调用
 
+
 class DataBase {
     constructor() {
         this.pool = null;
@@ -110,6 +111,8 @@ class DataBase {
             return false;
         }
     }
+
+    
 
 }
 

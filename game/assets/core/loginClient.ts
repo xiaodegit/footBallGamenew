@@ -28,7 +28,7 @@ export class socketClient extends Component {
         // 监听登录成功事件
         socket.on('loginSuccess', (data: any) => {
             console.log('登录成功:', data);
-            director.loadScene('menu')
+            director.loadScene('menu');
         });
 
         // 监听登录失败事件

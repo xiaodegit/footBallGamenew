@@ -59,11 +59,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           //开始匹配，发送房间id到服务器
           this.clientmanager.Socket.emit('joinRoom', this.roomID);
           this.leaveRoom.active = true;
+          this.node.active = false;
         }
 
         onTouchLeaveRoom() {
           this.clientmanager.Socket.emit('leaveRoom', this.roomID);
           this.leaveRoom.active = false;
+          this.node.active = true;
         }
 
         onDestroy() {

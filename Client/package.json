@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "mysql2": "^3.11.3",
+    "async-lock": "^1.4.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
     "socket.io": "^4.8.0",
     "uuid": "^10.0.0"
-  }
+  },
+  "author": "chenbeixuan",
+  "license": "ISC"
 }
