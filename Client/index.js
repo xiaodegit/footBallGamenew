@@ -1,6 +1,6 @@
 // 导入自定义模块
 require('dotenv').config();
-const sql = require('./mysql/sql');
+const sql = require('./db/dbManager');
 const createServer = require('./module/server');
 const authModule = require('./module/auth');
 const roomModule = require('./rooms/room');
@@ -9,7 +9,7 @@ const roomModule = require('./rooms/room');
 const { io, httpServer } = createServer();
 
 // 注册所有模块的逻辑
-sql.initialize();
+sql.initializeLogin();
 authModule(io);
 roomModule(io);
 

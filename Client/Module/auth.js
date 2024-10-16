@@ -1,4 +1,4 @@
-const sql = require('../mysql/sql');
+const sql = require('../db/dbManager');
 
 module.exports = function authModule(io) {
 

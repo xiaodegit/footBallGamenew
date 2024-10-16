@@ -1,5 +1,5 @@
 const AsyncLock = require('async-lock');
-const sql = require('../mysql/sql');
+const sql = require('../game/gameSql');
 const lock = new AsyncLock();
 
 // 玩家数据
@@ -16,7 +16,7 @@ function createRoomID(playerArr) {
     console.log('创建新的房间id',roomId);
     // playerArr 发送到数据库
     console.log('创建房间，玩家列表:', playerArr);
-    sql.saveRoom(roomId,playerArr)
+    sql.gamePoolRun();
     return roomId;
 }
 

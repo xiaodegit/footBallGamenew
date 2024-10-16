@@ -6,13 +6,34 @@ const { v1: uuidv1 } = require('uuid'); // 使用解构赋值简化UUID调用
 
 class DataBase {
     constructor() {
-        this.pool = null;
+        this.LoginPool = null;
+        this.gamePool = null;
     }
 
     // 初始化连接池
-    async initialize() {
+    async initializeLogin() {
         try {
-            this.pool = mysql.createPool({
+            this.LoginPool = mysql.createPool({
+                host: process.env.DB_HOST || 'localhost',
+                user: process.env.DB_USER || 'root',
+                password: process.env.DB_PASSWORD || '123456',
+                database: process.env.DB_NAME || 'footballgame',
+                waitForConnections: true,
+                connectionLimit: 10,
+                queueLimit: 0
+            });
+            console.log('数据库连接池已初始化');
+        } catch (error) {
+            console.error('初始化数据库连接池失败:', error);
+            process.exit(1); // 初始化失败时退出程序
+        }
+        this.initializeGame();
+    }
+
+    // 初始化连接池
+    async initializeGame() {
+        try {
+            this.gamePool = mysql.createPool({
                 host: process.env.DB_HOST || 'localhost',
                 user: process.env.DB_USER || 'root',
                 password: process.env.DB_PASSWORD || '123456',
@@ -39,9 +60,9 @@ class DataBase {
             }
 
             const query = 'SELECT pass_word, name FROM user_info WHERE user_name = ?';
-            const [rows] = await this.pool.execute(query, [userName]);
-            console.log('rows =========',rows.length);
-            
+            const [rows] = await this.LoginPool.execute(query, [userName]);
+            console.log('rows =========', rows.length);
+
             if (rows.length === 0) {
                 console.log('用户不存在，开始注册');
                 // 假设name与userName相同，或者你有其他逻辑获取name
@@ -56,7 +77,7 @@ class DataBase {
                     return false;
                 }
             }
-            await this.mimayanzheng(rows,password,socket);
+            await this.mimayanzheng(rows, password, socket);
             return true;
         } catch (error) {
             console.error('数据库查询出错:', error);
@@ -77,7 +98,7 @@ class DataBase {
             const query = 'INSERT INTO user_info (user_name, pass_word, openid, name) VALUES (?, ?, ?, ?)';
 
             // 执行插入操作
-            this.pool.execute(query, [userName, hashedPassword, ID, name]);
+            this.LoginPool.execute(query, [userName, hashedPassword, ID, name]);
 
             console.log('用户注册成功:', userName, ID);
             return true;
@@ -87,8 +108,8 @@ class DataBase {
             return false;
         }
     }
-    
-    async mimayanzheng(rows,password,socket) {
+
+    async mimayanzheng(rows, password, socket) {
 
         //rows[0].pass_word数据库中的密码
         const storedHashedPassword = rows[0].pass_word;
@@ -113,7 +134,6 @@ class DataBase {
     }
 
     
-
 }
-
 module.exports = new DataBase();
+
