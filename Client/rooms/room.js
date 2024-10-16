@@ -1,7 +1,7 @@
 const AsyncLock = require('async-lock');
 const sql = require('../game/gameSql');
 const lock = new AsyncLock();
-
+let IO;
 // 玩家数据
 let players = new Set();
 
@@ -16,7 +16,7 @@ function createRoomID(playerArr) {
     console.log('创建新的房间id',roomId);
     // playerArr 发送到数据库
     console.log('创建房间，玩家列表:', playerArr);
-    sql.gamePoolRun();
+    sql.gamePoolRun(roomId,playerArr,IO);
     return roomId;
 }
 
@@ -50,6 +50,7 @@ const playerExit = async function (socket) {
 // 房间模块
 const roomModule = async function (io) {
     io.on('connection', (socket) => {
+        IO = io;
         socket.on('joinRoom', () => playerCache(socket));
         socket.on('leaveRoom', () => playerExit(socket));
     });

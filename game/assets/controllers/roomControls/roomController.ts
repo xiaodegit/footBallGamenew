@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, director, Node, Scene } from 'cc';
 const { ccclass, property } = _decorator;
 import { clientManager } from '../../managers/clientManager';
 
@@ -12,12 +12,16 @@ export class joinRoomController extends Component {
 
     start() {
         this.clientmanager = clientManager.getInstance();
+        this.clientmanager.Socket.on('gameStart', this.gameStart);
     }
 
     update(deltaTime: number) {
 
     }
-
+    gameStart(){
+        console.log('开始游戏了');
+        director.loadScene('game')
+    }
     onTouchStartGame() {
         //开始匹配，发送房间id到服务器
         this.clientmanager.Socket.emit('joinRoom', this.roomID);

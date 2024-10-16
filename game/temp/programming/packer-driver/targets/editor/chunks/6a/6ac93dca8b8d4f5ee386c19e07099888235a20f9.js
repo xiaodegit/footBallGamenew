@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, clientManager, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, joinRoomController;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, director, Node, clientManager, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, joinRoomController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -22,6 +22,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      director = _cc.director;
       Node = _cc.Node;
     }, function (_unresolved_2) {
       clientManager = _unresolved_2.clientManager;
@@ -31,7 +32,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "25a769tCxNAoq5j2b5ebqXv", "roomController", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node']);
+      __checkObsolete__(['_decorator', 'Component', 'director', 'Node', 'Scene']);
 
       ({
         ccclass,
@@ -51,9 +52,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.clientmanager = (_crd && clientManager === void 0 ? (_reportPossibleCrUseOfclientManager({
             error: Error()
           }), clientManager) : clientManager).getInstance();
+          this.clientmanager.Socket.on('gameStart', this.gameStart);
         }
 
         update(deltaTime) {}
+
+        gameStart() {
+          console.log('开始游戏了');
+          director.loadScene('game');
+        }
 
         onTouchStartGame() {
           //开始匹配，发送房间id到服务器

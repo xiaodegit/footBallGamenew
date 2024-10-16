@@ -146,11 +146,11 @@
       "uuid": "b3e09e3a-4bf3-4c7b-bb55-281bcafc7be0"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\game.scene": {
-      "time": 1729070132331.7456,
+      "time": 1729072066937.3162,
       "uuid": "f48832cd-a367-48b8-8103-5ea374cc6b28"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene": {
-      "time": 1728994852485.2935,
+      "time": 1729072661619.647,
       "uuid": "0d42534b-3fa7-45c7-874a-b5fba28f3dfe"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\login.scene.meta": {
@@ -208,7 +208,7 @@
       "time": 1728565082034.765
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\roomControls\\roomController.ts": {
-      "time": 1728897520207.9683,
+      "time": 1729072550177.121,
       "uuid": "25a76f6d-0b13-40a2-ae63-d9be5e6ea5ef"
     },
     "D:\\cocosProject\\footBallGame\\game\\assets\\controllers\\gameStateControls.meta": {

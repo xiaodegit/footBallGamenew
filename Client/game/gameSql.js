@@ -6,10 +6,14 @@ let roomdata = {
 
 class startGame{
 
-    gamePoolRun(){
+    gamePoolRun(roomId,playerArr,io){
         console.log('进入游戏');
-        
-        console.log(mysql.gamePool);
+        playerArr.forEach(e => {
+            console.log('e=',e);
+            
+            io.to(e).emit('gameStart', { message: '游戏开始了！' });
+        });
+
     }
 }
 module.exports = new startGame();

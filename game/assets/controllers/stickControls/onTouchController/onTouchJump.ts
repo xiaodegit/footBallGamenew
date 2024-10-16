@@ -7,8 +7,8 @@ const { ccclass, property } = _decorator;
 export class onTouchJump extends Component {
     playerController!: PlayerController;
     touchLocationClone!: Vec2;
-    footMotorController!:FootMotorController;
-    
+    footMotorController!: FootMotorController;
+
     @property(Node)
     player!: Node;
     @property(Node)
@@ -26,6 +26,8 @@ export class onTouchJump extends Component {
     onTouchStart(event: EventTouch) {
         let touchLocation = event.getLocation(); // 获取触摸的屏幕坐标
         this.touchLocationClone = touchLocation.clone();
+        console.log(this.footMotorController);
+
         this.footMotorController.rotateHeadTo90Degrees();
 
     }
@@ -33,8 +35,8 @@ export class onTouchJump extends Component {
     onTouchMove(event: EventTouch) {
         let touchLocation = event.getLocation();
         let offset = touchLocation.y - this.touchLocationClone.y;
-        
-        if(this.boolean)return;
+
+        if (this.boolean) return;
         if (offset > 100) {
             this.boolean = true;
             this.playerController.jumpMovement();
@@ -42,7 +44,7 @@ export class onTouchJump extends Component {
     }
 
     onTouchEnd(event: EventTouch) {
-        
+
         this.footMotorController.stopMotor();
         this.boolean = false;
 
