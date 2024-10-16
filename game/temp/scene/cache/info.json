@@ -5,7 +5,8 @@
         "version": "Windows 10 Pro"
     },
     "sceneListMap": {
-        "2e9fcd02-32bf-4499-8d5c-9332b1d529be": "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\menu.scene"
+        "2e9fcd02-32bf-4499-8d5c-9332b1d529be": "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\menu.scene",
+        "f48832cd-a367-48b8-8103-5ea374cc6b28": "D:\\cocosProject\\footBallGame\\game\\assets\\src\\scenes\\game.scene"
     },
     "deviceMd5": "19b4d8c36c5b205623087f1b801a8884"
 }

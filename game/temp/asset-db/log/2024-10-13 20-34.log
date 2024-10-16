@@ -1343,3 +1343,13 @@
 2024-10-16 11:10:02-debug: asset-db:refresh-all-database (1273ms)
 2024-10-16 11:10:02-debug: asset-db:worker-effect-data-processing (3ms)
 2024-10-16 11:10:02-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2024-10-16 15:36:34-debug: refresh db internal success
+2024-10-16 15:36:34-debug: refresh db assets success
+2024-10-16 15:36:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-10-16 15:36:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-10-16 15:36:34-debug: asset-db:refresh-all-database (646ms)
+2024-10-16 15:36:34-debug: asset-db:worker-effect-data-processing (4ms)
+2024-10-16 15:36:34-debug: asset-db-hook-engine-extends-afterRefresh (9ms)
+2024-10-16 15:36:35-debug: start refresh asset from D:\cocosProject\footBallGame\game\assets\src\scenes\menu.scene...
+2024-10-16 15:36:35-debug: %cImport%c: D:\cocosProject\footBallGame\game\assets\src\scenes\menu.scenebackground: #aaff85; color: #000;color: #000;
+2024-10-16 15:36:35-debug: refresh asset D:\cocosProject\footBallGame\game\assets\src\scenes success
